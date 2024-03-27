@@ -1,5 +1,5 @@
 Mode: -spanbert
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
 Google Gemini API Key: XXX
 Relation: per:employee_of
