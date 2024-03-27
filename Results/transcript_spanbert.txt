@@ -1,6 +1,6 @@
-python3 project2.py -spanbert "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "xxx" 2 0.7 "bill gates microsoft" 10
+python3 project2.py -spanbert "xxx" "56f4e4ae2f4944372" "xxx" 2 0.7 "bill gates microsoft" 10
 Parameters:
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
 Google Gemini API Key: xxx
 Mode: -spanbert
