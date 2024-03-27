@@ -105,9 +105,12 @@ Reference: <https://www.cs.columbia.edu/~gravano/cs6111/Proj2/>
     to maximum 3-shot learners.[gemini.generate_prompt]
         4. Feed the prompt into Gemini model and get response.[gemini.get_gemini_completion]
         5. Process response. Parse the response into lists of list and if the form of the list is correct update the relation in relation sets. In this step, since we update the dictionary by setting "tuple of relation:1", where 1 is the default confidence for all relationship extracted by Gemini, we do not have to handle the diplicate promblem.[gemini.gemini]
+     
       **Note: To avoid termination with Gemini Resource Exhausted, the program will rest for 10 seconds when catch this error.
-      ** Note: If the sentence is processced by Gemini but the return relation is not coherent with the defined format, the # of extracted annotaion from Gemini will increase, but no relation will be added to the finel set.
-      ** Gemini configuration is set as followed:
+
+     ** Note: If the sentence is processced by Gemini but the return relation is not coherent with the defined format, the # of extracted annotaion from Gemini will increase, but no relation will be added to the finel set.
+
+     ** Gemini configuration is set as followed:
 
       ```
       model_name ="gemini-1.0-pro"
