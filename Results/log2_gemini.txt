@@ -1,8 +1,8 @@
-python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs" 2 0.0 "sundar pichai google" 40
+python3 main.py -gemini "xxx" "56f4e4ae2f4944372" "xxx" 2 0.0 "sundar pichai google" 40
 Parameters:
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
-Google Gemini API Key: AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs
+Google Gemini API Key: xxx
 Mode: -gemini
 Relation: per:employee_of
 Seed Query: sundar pichai google
