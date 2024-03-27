@@ -1,0 +1,496 @@
+python3 project2.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyAg_Arq31eMN18BQI_VcxB_AMinn5ATnBY" 4 0.0 "bill gates microsoft" 12
+-------
+Parameters:
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: AIzaSyAg_Arq31eMN18BQI_VcxB_AMinn5ATnBY
+Mode: -gemini
+Relation: org:top_members/employees
+Seed Query: bill gates microsoft
+Number of Tuples: 12
+=========== Iteration: 0 - Query: bill gates microsoft =============
+URL (1/10) : https://en.wikipedia.org/wiki/Bill_Gates
+Webpage length (num characters): 142951
+Trimming webpage content from 142951 to 10000 characters
+Extracted 50 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 50 sentences
+Processed 10 / 50 sentences
+Processed 15 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:The Giving Pledge OER Project Breakthrough Energy Mission Innovation Writings "An Open Letter to Hobbyists" The Road Ahead Business @ the Speed of Thought How to Avoid a Climate Disaster How to Prevent the Next Pandemic Related Bill Gates' flower fly Codex Leicester Lost on the Grand Banks History of Microsoft Timeline of Microsoft Paul Allen vte William Henry Gates III (born October 28, 1955) is an American businessman, investor, philanthropist, and writer best known for co-founding the software giant Microsoft, along with his childhood friend Paul Allen.
+
+                Subject: Microsoft ;    Object: Paul Allen
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:During his career at Microsoft, Gates held the positions of chairman, chief executive officer (CEO), president, and chief software architect, while also being its largest individual shareholder until May 2014.[2][a]
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+
+                Subject: Microsoft ;    Object: Allen
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:In June 2008, Gates transitioned into a part-time role at Microsoft and full-time work at the Bill & Melinda Gates Foundation, the private charitable foundation he and his then-wife Melinda had established in 2000.[6]
+
+                Subject: Bill & Melinda Gates Foundation ;      Object: Bill Gates
+                Adding to set of extracted relations...
+
+                Subject: Bill & Melinda Gates Foundation ;      Object: Melinda Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:He stepped down as chairman of the Microsoft board in February 2014 and assumed the role of technology adviser to support newly appointed CEO Satya Nadella.[7]
+
+                Subject: Microsoft ;    Object: Satya Nadella
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:In October 2017, he was surpassed by Amazon founder Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[9]
+
+                Subject: Amazon ;       Object: Jeff Bezos
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:Later in his career and since leaving day-to-day operations at Microsoft in 2008, Gates has pursued other business and philanthropic endeavors.
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In 2010, Gates and Warren Buffett founded The Giving Pledge, whereby they and other billionaires pledge to give at least half of their wealth to philanthropy.[12]
+
+                Subject: The Giving Pledge ;    Object: Warren Buffett
+                Adding to set of extracted relations...
+
+                Subject: The Giving Pledge ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:His father was a prominent lawyer, and his mother served on the board of directors of First Interstate BancSystem and United Way of America.
+
+                Subject: First Interstate BancSystem ;  Object: his mother
+                Adding to set of extracted relations...
+
+                Subject: United Way of America ;        Object: his mother
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 50 sentences
+Processed 50 / 50 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Organization' and 'Person' and analyze the relations between those entities to extract all explicit Top_Member_Employees relations in the sentence.
+    Sentence : When he was in eighth grade, the Mothers' Club at the school used proceeds from Lakeside School's rummage sale to buy a Teletype Model 33 ASR terminal and a block of computer time on a General Electric (GE) computer for the students.[27] Gates
+    Definition: A Top_Member_Employees relation indicates that a 'Person' is a top member or employee of an 'Organization'.
+    Return format: represent relation in the format of ['Organization',Top_Member_Employees,'Person'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Nvidia, Top_Member_Employees, Jensen Huang; Microsoft, Top_Member_Employees, Paul Allen; Microsoft, Top_Member_Employees, William Henry Gates III
+    
+
+Extracted annotations for  23  out of total  50  sentences from spaCy, 11 from Gemini.
+Relations extracted from this website: 11 (Overall: 11)
+
+
+URL (2/10) : https://twitter.com/BillGates
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 7 sentences
+
+Extracted annotations for  0  out of total  7  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 11)
+
+
+URL (3/10) : https://www.instagram.com/thisisbillgates/?hl=en
+Webpage length (num characters): 9
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+Extracted annotations for  0  out of total  1  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 11)
+
+
+URL (4/10) : https://news.microsoft.com/tag/bill-gates/
+Webpage length (num characters): 5159
+Extracted 24 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 24 sentences
+Processed 10 / 24 sentences
+
+                === Extracted Relation ===
+                Sentence:February 26, 2014 Added incentive for Imagine Cup teams: Meet Bill Gates One world finalist team in Microsoft’s global student technology competition will be chosen for a private meeting to share their dreams with Microsoft’s co-founder.
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Thursday, hundreds of elite researchers gathered at Microsoft Research New England for a heartwarming tribute to one of the greats in computing history: Butler Lampson.
+
+                Subject: Microsoft Research New England ;       Object: Butler Lampson
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 24 sentences
+
+                === Extracted Relation ===
+                Sentence:February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+
+                Subject: Microsoft ;    Object: Satya Nadella
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: John Thompson
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:July 15, 2013 Bill Gates: 2013 Microsoft Research Faculty Summit Microsoft Chairman Bill Gates shares his thoughts on computing’s impact on society, and fields questions from the audience at the 2013 Microsoft Research Faculty Summit.
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Rick Rashid, chief research officer of Microsoft, moderates the discussion.
+
+                Subject: Microsoft ;    Object: Rick Rashid
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 24 sentences
+
+                === Extracted Relation ===
+                Sentence:Microsoft Employees Raise $1 Billion for Communities Around the World Microsoft commemorates 30th Employee Giving Campaign with CEO Steve Ballmer and Chairman and Founder Bill Gates.
+
+                Subject: Microsoft ;    Object: Steve Ballmer
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+Last prompt=
+    Task: Identify entities labeled as 'Organization' and 'Person' and analyze the relations between those entities to extract all explicit Top_Member_Employees relations in the sentence.
+    Sentence : 1 2 3 … 12 Next Follow us: Facebook Twitter Check us out on RSS Share this page: What's new Surface Laptop Studio 2 Surface Laptop Go 3 Surface Pro 9 Surface Laptop 5 Microsoft Copilot Copilot in Windows Microsoft 365 Windows 11 apps Microsoft Store Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Microsoft Store Promise Flexible Payments Education Microsoft in education Devices for education Microsoft Teams for Education Microsoft 365 Education How to buy for your school Educator training and development Deals for students and parents Azure for students Business Microsoft Cloud Microsoft Security Dynamics 365 Microsoft 365 Microsoft Power Platform Microsoft Teams Copilot for Microsoft 365 Small Business Developer & IT Azure Developer Center Documentation Microsoft Learn Microsoft Tech Community Azure Marketplace AppSource Visual Studio Company Careers About Microsoft Company news Privacy at Microsoft Investors Diversity and inclusion Accessibility Sustainability English (United States)
+    Definition: A Top_Member_Employees relation indicates that a 'Person' is a top member or employee of an 'Organization'.
+    Return format: represent relation in the format of ['Organization',Top_Member_Employees,'Person'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Nvidia, Top_Member_Employees, Jensen Huang; Microsoft, Top_Member_Employees, Paul Allen; Microsoft, Top_Member_Employees, William Henry Gates III
+    
+
+Extracted annotations for  15  out of total  24  sentences from spaCy, 8 from Gemini.
+Relations extracted from this website: 5 (Overall: 16)
+
+
+URL (5/10) : https://www.linkedin.com/in/williamhgates
+Request to https://www.linkedin.com/in/williamhgates failed with status code 999
+URL (6/10) : https://www.britannica.com/biography/Bill-Gates
+Webpage length (num characters): 12441
+Trimming webpage content from 12441 to 10000 characters
+Extracted 64 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 64 sentences
+Processed 10 / 64 sentences
+Processed 15 / 64 sentences
+Processed 20 / 64 sentences
+Processed 25 / 64 sentences
+Processed 30 / 64 sentences
+Processed 35 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:See all related content → Recent News Mar. 20, 2024, 4:12 AM ET (ScienceAlert) Bill Gates' TerraPower to Fast Track
+
+                Subject: TerraPower ;   Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:Where did Bill Gates go to college?Bill Gates attended Harvard University.
+
+                Subject: Harvard University ;   Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:However, he dropped out in his junior year to found Microsoft with his friend Paul Allen.
+
+                Subject: Microsoft ;    Object: Paul Allen
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+
+                Subject: Microsoft Corporation ;        Object: Bill Gates
+                Adding to set of extracted relations...
+
+                Subject: Microsoft Corporation ;        Object: Paul Allen
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:Bill Gates (born October 28, 1955, Seattle, Washington, U.S.) is an American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+
+                Subject: Microsoft Corporation ;        Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In 1975 Gates, then a sophomore at Harvard University, joined his hometown friend Paul G. Allen to develop software for the first microcomputers.
+
+                Subject: Harvard University ;   Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:With the success of this project, Gates left Harvard during his junior year and, with Allen, formed Microsoft.
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: Paul Allen
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:While Microsoft’s independence strained relations with IBM, Gates deftly manipulated the larger company so that it became permanently dependent on him for crucial software.
+
+                Subject: Microsoft ;    Object: Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 55 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:Britannica Quiz A Brief History of the Computer Told from the 1990s: A Quiz Largely on the strength of Microsoft’s success, Gates amassed a huge paper fortune as the company’s largest individual shareholder.
+
+                Subject: Microsoft ;    Object: Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 60 / 64 sentences
+
+                === Extracted Relation ===
+                Sentence:Nevertheless, as Microsoft’s power and reputation grew, and especially as it attracted the attention of the U.S. Justice Department’s antitrust division, Gates, with some reluctance, became a more public figure.
+
+                Subject: Microsoft ;    Object: Gates
+                Adding to set of extracted relations...
+                ==========
+
+Last prompt=
+    Task: Identify entities labeled as 'Organization' and 'Person' and analyze the relations between those entities to extract all explicit Top_Member_Employees relations in the sentence.
+    Sentence : Nevertheless, as Microsoft’s power and reputation grew, and especially as it attracted the attention of the U.S. Justice Department’s antitrust division, Gates, with some reluctance, became a more public figure.
+    Definition: A Top_Member_Employees relation indicates that a 'Person' is a top member or employee of an 'Organization'.
+    Return format: represent relation in the format of ['Organization',Top_Member_Employees,'Person'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Nvidia, Top_Member_Employees, Jensen Huang; Microsoft, Top_Member_Employees, Paul Allen; Microsoft, Top_Member_Employees, William Henry Gates III
+    
+
+Extracted annotations for  23  out of total  64  sentences from spaCy, 10 from Gemini.
+Relations extracted from this website: 5 (Overall: 21)
+
+
+URL (7/10) : https://www.hindustantimes.com/business/who-is-bill-gates-girlfriend-paula-hurd-with-whom-he-attended-anant-ambani-radhika-merchant-pre-wedding-celebrations-101709711700593.html
+Webpage length (num characters): 11399
+Trimming webpage content from 11399 to 10000 characters
+Extracted 57 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 57 sentences
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+Processed 10 / 57 sentences
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+Processed 15 / 57 sentences
+Processed 20 / 57 sentences
+
+                === Extracted Relation ===
+                Sentence:He replies…Paula Hurd was married to Mark Hurd, CEO of software company Oracle, for 30 years, until his death in October 2019.
+
+                Subject: Oracle ;       Object: Mark Hurd
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 57 sentences
+Processed 30 / 57 sentences
+Processed 35 / 57 sentences
+Processed 40 / 57 sentences
+Processed 45 / 57 sentences
+Processed 50 / 57 sentences
+Processed 55 / 57 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Organization' and 'Person' and analyze the relations between those entities to extract all explicit Top_Member_Employees relations in the sentence.
+    Sentence : Engineer held with illegal pistol at railway station Now, BSAs in U.P. can’t withhold teachers’ salary: DG school education Amit Shah says Centre will consider revoking AFSPA in Jammu and Kashmir 2024 LS polls: BJP replaces 9 sitting MPs in 2nd U.P. list, drops Varun Dhoni's age-defying dive to dismiss Vijay Shankar during CSK vs GT as Sunil Gavaskar goes berserk with 'The man' remark Donald Trump's social media company Truth Social soars over 30% on first day of trading on Nasdaq KT Rama Rao says Congress ‘not powerful enough’, names leaders who can stop BJP After CAA, U.S. Wades Into Kejriwal’s Arrest; Lectures India Over ‘Fair Legal Process...'
+    Definition: A Top_Member_Employees relation indicates that a 'Person' is a top member or employee of an 'Organization'.
+    Return format: represent relation in the format of ['Organization',Top_Member_Employees,'Person'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Nvidia, Top_Member_Employees, Jensen Huang; Microsoft, Top_Member_Employees, Paul Allen; Microsoft, Top_Member_Employees, William Henry Gates III
+    
+
+Extracted annotations for  20  out of total  57  sentences from spaCy, 2 from Gemini.
+Relations extracted from this website: 1 (Overall: 22)
+
+
+URL (8/10) : https://www.forbes.com/profile/bill-gates/
+Webpage length (num characters): 7074
+Extracted 36 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:In PROFILEBill GatesCochair, Bill & Melinda Gates Foundation$131B$104M (0.08%)Real Time Net Worthas of 3/26/24Reflects change since 5 pm ET of prior trading day.#7 in the world todayPhoto by John KeatleyAbout Bill GatesBill Gates turned his fortune from software firm Microsoft into diversified holdings including investments in zero-carbon energy companiesIn May 2021, Bill and Melinda Gates each announced on Twitter they were ending their marriage after 27 years.
+
+                Subject: Bill & Melinda Gates Foundation ;      Object: Bill Gates
+                Adding to set of extracted relations...
+
+                Subject: Bill & Melinda Gates Foundation ;      Object: Melinda Gates
+                Adding to set of extracted relations...
+                ==========
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+
+                === Extracted Relation ===
+                Sentence:Gates, who cofounded Microsoft with Paul Allen (d. 2018) in 1975, transferred at least $6 billion worth of shares in public companies to Melinda as part of the divorce settlement.
+
+                Subject: Microsoft ;    Object: Paul Allen
+                Adding to set of extracted relations...
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 36 sentences
+
+                === Extracted Relation ===
+                Sentence:As of March 2020, when Gates stepped down from the Microsoft board, he owned about 1.3% of the software and computing company's shares.
+
+                Subject: Microsoft ;    Object: William Henry Gates III
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 36 sentences
+
+                === Extracted Relation ===
+                Sentence:Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 36 sentences
+Processed 20 / 36 sentences
+
+                === Extracted Relation ===
+                Sentence:ByPaul TassiSenior ContributorMar 19, 2024TerraPower: What We Know About Bill Gates's Nuclear Power Plant In WyomingThe Gates-founded company has secured $2 billion in funding from the federal government and expects the plant to be active by 2030.ByAntonio Pequeño IVForbes StaffMar 14, 2024Study Shows College Enrollment Falling With Perceptions Of Its ValueA new study from the Bill & Melinda Gates Foundation suggests that negative messages in media and culture are contributing to declining college enrollment.
+
+                Subject: Bill & Melinda Gates Foundation ;      Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Moses Preached The Power Of MathBill Gates, the Microsoft founder, is on a crusade to prioritize math.
+
+                Subject: Microsoft ;    Object: Bill Gates
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 36 sentences
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+Processed 30 / 36 sentences
+Processed 35 / 36 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Organization' and 'Person' and analyze the relations between those entities to extract all explicit Top_Member_Employees relations in the sentence.
+    Sentence : AdChoicesAdChoicesPrivacy StatementDo Not Sell or Share My Personal InformationLimit the Use of My Sensitive Personal InformationPrivacy PreferencesTerms of ServiceDigital Terms of SaleContact UsSend Us FeedbackReport a Security IssueJobs At ForbesReprints & PermissionsForbes Press RoomAdvertiseInvestors
+    Definition: A Top_Member_Employees relation indicates that a 'Person' is a top member or employee of an 'Organization'.
+    Return format: represent relation in the format of ['Organization',Top_Member_Employees,'Person'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Nvidia, Top_Member_Employees, Jensen Huang; Microsoft, Top_Member_Employees, Paul Allen; Microsoft, Top_Member_Employees, William Henry Gates III
+    
+
+Extracted annotations for  22  out of total  36  sentences from spaCy, 7 from Gemini.
+Relations extracted from this website: 0 (Overall: 22)
+
+
+URL (9/10) : https://answers.microsoft.com/en-us/outlook_com/forum/all/microsoft-and-bill-gates-are-so-damn-screwed-up/cd76d0e2-ece4-45db-8886-00d557d593e2
+Webpage length (num characters): 11
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+Extracted annotations for  0  out of total  1  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 22)
+
+
+URL (10/10) : https://www.gatesnotes.com/The-Age-of-AI-Has-Begun
+Webpage length (num characters): 30547
+Trimming webpage content from 30547 to 10000 characters
+Extracted 91 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 91 sentences
+Processed 10 / 91 sentences
+Processed 15 / 91 sentences
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+Processed 20 / 91 sentences
+Processed 25 / 91 sentences
+Processed 30 / 91 sentences
+Processed 35 / 91 sentences
+Processed 40 / 91 sentences
+Processed 45 / 91 sentences
+Processed 50 / 91 sentences
+Processed 55 / 91 sentences
+Processed 60 / 91 sentences
+Processed 65 / 91 sentences
+Processed 70 / 91 sentences
+Processed 75 / 91 sentences
+Processed 80 / 91 sentences
+Processed 85 / 91 sentences
+Processed 90 / 91 sentences
+
+Extracted annotations for  5  out of total  91  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 22)
+
+
+================================================================================
+ALL RELATIONS for org:top_members/employees (22)
+================================================================================
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Paul Allen
+Confidence: 1.0000000   | Subject: Microsoft    | Object: William Henry Gates III
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Allen
+Confidence: 1.0000000   | Subject: Bill & Melinda Gates Foundation      | Object: Bill Gates
+Confidence: 1.0000000   | Subject: Bill & Melinda Gates Foundation      | Object: Melinda Gates
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Satya Nadella
+Confidence: 1.0000000   | Subject: Amazon       | Object: Jeff Bezos
+Confidence: 1.0000000   | Subject: The Giving Pledge    | Object: Warren Buffett
+Confidence: 1.0000000   | Subject: The Giving Pledge    | Object: Bill Gates
+Confidence: 1.0000000   | Subject: First Interstate BancSystem  | Object: his mother
+Confidence: 1.0000000   | Subject: United Way of America        | Object: his mother
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Bill Gates
+Confidence: 1.0000000   | Subject: Microsoft Research New England       | Object: Butler Lampson
+Confidence: 1.0000000   | Subject: Microsoft    | Object: John Thompson
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Rick Rashid
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Steve Ballmer
+Confidence: 1.0000000   | Subject: TerraPower   | Object: Bill Gates
+Confidence: 1.0000000   | Subject: Harvard University   | Object: Bill Gates
+Confidence: 1.0000000   | Subject: Microsoft Corporation        | Object: Bill Gates
+Confidence: 1.0000000   | Subject: Microsoft Corporation        | Object: Paul Allen
+Confidence: 1.0000000   | Subject: Microsoft    | Object: Gates
+Confidence: 1.0000000   | Subject: Oracle       | Object: Mark Hurd
+Total # of iterations =  1

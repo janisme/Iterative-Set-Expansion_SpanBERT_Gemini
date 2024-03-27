@@ -1,0 +1,260 @@
+Mode: -spanbert
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: XXX
+Relation: org:top_members/employees
+Threshold: 0.7
+Seed Query: bill gates microsoft
+Number of Tuples: 10
+Loading pre-trained spanBERT from ./SpanBERT/pretrained_spanbert
+=========== Iteration: 0 - Query: bill gates microsoft =============
+URL (1/10) :
+https://en.wikipedia.org/wiki/Bill_Gates
+Webpage length (num characters): 142951
+Trimming webpage content from 142951 to 10000 characters
+Extracted 50 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 50 sentences
+Processed 10 / 50 sentences
+Processed 15 / 50 sentences
+Processed 20 / 50 sentences
+Processed 25 / 50 sentences
+
+		=== Extracted Relation ===
+	Sentence: He stepped down as chairman of the Microsoft board in February 2014 and assumed the role of technology adviser to support newly appointed CEO Satya Nadella.[7]
+		Relation: org:top_members/employees (Confidence: 0.991)
+Subject: Microsoft	Object: Satya Nadella.[7
+		Adding to set of extracted relations
+		==========
+Processed 30 / 50 sentences
+Processed 35 / 50 sentences
+Processed 40 / 50 sentences
+Processed 45 / 50 sentences
+Processed 50 / 50 sentences
+Extracted annotations for  0  out of total  50  sentences
+Relations extracted from this website: 1 (Overall: 1)
+URL (2/10) :
+https://twitter.com/BillGates
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 7 sentences
+Extracted annotations for  0  out of total  7  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (3/10) :
+https://www.instagram.com/thisisbillgates/
+Webpage length (num characters): 9
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (4/10) :
+https://news.microsoft.com/tag/bill-gates/
+Webpage length (num characters): 5159
+Extracted 24 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 24 sentences
+Processed 10 / 24 sentences
+Processed 15 / 24 sentences
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.667)
+Subject: Xbox	Object: Bill Gates
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.931)
+Subject: Microsoft Board	Object: Bill Gates’
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.924)
+Subject: Board of Directors	Object: Bill Gates’
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.992)
+Subject: Microsoft Board	Object: Bill Gates
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.987)
+Subject: Microsoft Board	Object: John Thompson
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.977)
+Subject: Board of Directors	Object: Bill Gates
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+		Relation: org:top_members/employees (Confidence: 0.990)
+Subject: Board of Directors	Object: John Thompson
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: July 15, 2013 Bill Gates: 2013 Microsoft Research Faculty Summit Microsoft Chairman Bill Gates shares his thoughts on computing’s impact on society, and fields questions from the audience at the 2013 Microsoft Research Faculty Summit.
+		Relation: org:top_members/employees (Confidence: 0.876)
+Subject: Microsoft Research Faculty Summit Microsoft	Object: Bill Gates
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Rick Rashid, chief research officer of Microsoft, moderates the discussion.
+		Relation: org:top_members/employees (Confidence: 0.991)
+Subject: Microsoft	Object: Rick Rashid
+		Adding to set of extracted relations
+		==========
+Processed 20 / 24 sentences
+Extracted annotations for  0  out of total  24  sentences
+Relations extracted from this website: 8 (Overall: 9)
+URL (5/10) :
+https://www.britannica.com/biography/Bill-Gates
+Webpage length (num characters): 12536
+Trimming webpage content from 12536 to 10000 characters
+Extracted 65 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 65 sentences
+Processed 10 / 65 sentences
+Processed 15 / 65 sentences
+Processed 20 / 65 sentences
+Processed 25 / 65 sentences
+Processed 30 / 65 sentences
+Processed 35 / 65 sentences
+Processed 40 / 65 sentences
+Processed 45 / 65 sentences
+Processed 50 / 65 sentences
+Processed 55 / 65 sentences
+Processed 60 / 65 sentences
+Processed 65 / 65 sentences
+Extracted annotations for  0  out of total  65  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (6/10) :
+https://www.linkedin.com/in/williamhgates
+Webpage length (num characters): 10003
+Trimming webpage content from 10003 to 10000 characters
+Extracted 86 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 86 sentences
+Processed 10 / 86 sentences
+Processed 15 / 86 sentences
+Processed 20 / 86 sentences
+Processed 25 / 86 sentences
+Processed 30 / 86 sentences
+Processed 35 / 86 sentences
+Processed 40 / 86 sentences
+Processed 45 / 86 sentences
+Processed 50 / 86 sentences
+
+		=== Extracted Relation ===
+	Sentence: More activity by Bill Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Liked by Bill Gates Chris Anderson has some great ideas about generosity and how to motivate more people to get involved in philanthropy.
+		Relation: org:top_members/employees (Confidence: 0.867)
+Subject: S&P Global	Object: Bill Gates
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: More activity by Bill Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Liked by Bill Gates Chris Anderson has some great ideas about generosity and how to motivate more people to get involved in philanthropy.
+		Relation: org:top_members/employees (Confidence: 0.879)
+Subject: S&P Global	Object: Daniel Yergin
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: More activity by Bill Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Daniel Yergin, Vice Chairman of S&P Global and Bill Gates, Founder of Breakthrough Energy and TerraPower, shared the stage for a Luncheon & Dialogue… Liked by Bill Gates Chris Anderson has some great ideas about generosity and how to motivate more people to get involved in philanthropy.
+		Relation: org:top_members/employees (Confidence: 0.867)
+Subject: S&P Global	Object: Bill Gates
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 55 / 86 sentences
+Processed 60 / 86 sentences
+Processed 65 / 86 sentences
+Processed 70 / 86 sentences
+Processed 75 / 86 sentences
+Processed 80 / 86 sentences
+Processed 85 / 86 sentences
+Extracted annotations for  0  out of total  86  sentences
+Relations extracted from this website: 2 (Overall: 3)
+URL (7/10) :
+https://www.forbes.com/profile/bill-gates/
+Webpage length (num characters): 6893
+Extracted 35 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 35 sentences
+Processed 10 / 35 sentences
+Processed 15 / 35 sentences
+Processed 20 / 35 sentences
+Processed 25 / 35 sentences
+
+		=== Extracted Relation ===
+	Sentence: ByAlan OhnsmanForbes StaffJan 25, 2024Bill & Melinda Gates Foundation Chief Calls On More Billionaires To Do More PhilanthropyExtreme poverty has increased.
+		Relation: org:top_members/employees (Confidence: 0.960)
+Subject: 2024Bill & Melinda Gates Foundation	Object: ByAlan OhnsmanForbes
+		Adding to set of extracted relations
+		==========
+Processed 30 / 35 sentences
+Processed 35 / 35 sentences
+Extracted annotations for  0  out of total  35  sentences
+Relations extracted from this website: 1 (Overall: 1)
+URL (8/10) :
+https://answers.microsoft.com/en-us/outlook_com/forum/all/microsoft-and-bill-gates-are-so-damn-screwed-up/cd76d0e2-ece4-45db-8886-00d557d593e2
+Webpage length (num characters): 11
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (9/10) :
+https://www.gatesnotes.com/Home
+Webpage length (num characters): 14117
+Trimming webpage content from 14117 to 10000 characters
+Extracted 99 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 99 sentences
+Processed 10 / 99 sentences
+Processed 15 / 99 sentences
+Processed 20 / 99 sentences
+Processed 25 / 99 sentences
+Processed 30 / 99 sentences
+Processed 35 / 99 sentences
+Processed 40 / 99 sentences
+Processed 45 / 99 sentences
+Processed 50 / 99 sentences
+Processed 55 / 99 sentences
+Processed 60 / 99 sentences
+Processed 65 / 99 sentences
+Processed 70 / 99 sentences
+Processed 75 / 99 sentences
+Processed 80 / 99 sentences
+Processed 85 / 99 sentences
+Processed 90 / 99 sentences
+Processed 95 / 99 sentences
+Extracted annotations for  0  out of total  99  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (10/10) :
+https://www.facebook.com/BillGates/
+Webpage length (num characters): 669
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 7 sentences
+Extracted annotations for  0  out of total  7  sentences
+Relations extracted from this website: 0 (Overall: 0)
+================================================================================
+ALL RELATIONS for org:top_members/employees (12)
+================================================================================
+Confidence: 0.9916021 	| Subject: Microsoft Board 	| Object: Bill Gates
+Confidence: 0.9911937 	| Subject: Microsoft 	| Object: Satya Nadella.[7
+Confidence: 0.9911512 	| Subject: Microsoft 	| Object: Rick Rashid
+Confidence: 0.9895002 	| Subject: Board of Directors 	| Object: John Thompson
+Confidence: 0.9874020 	| Subject: Microsoft Board 	| Object: John Thompson
+Confidence: 0.9774380 	| Subject: Board of Directors 	| Object: Bill Gates
+Confidence: 0.9600595 	| Subject: 2024Bill & Melinda Gates Foundation 	| Object: ByAlan OhnsmanForbes
+Confidence: 0.9305180 	| Subject: Microsoft Board 	| Object: Bill Gates’
+Confidence: 0.9240535 	| Subject: Board of Directors 	| Object: Bill Gates’
+Confidence: 0.8791452 	| Subject: S&P Global 	| Object: Daniel Yergin
+Confidence: 0.8761722 	| Subject: Microsoft Research Faculty Summit Microsoft 	| Object: Bill Gates
+Confidence: 0.8670611 	| Subject: S&P Global 	| Object: Bill Gates
+Total # of iterations =  1

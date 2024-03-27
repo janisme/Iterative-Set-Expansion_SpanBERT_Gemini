@@ -1,0 +1,624 @@
+Mode: -spanbert
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: XXX
+Relation: per:employee_of
+Threshold: 0.7
+Seed Query: sundar pichai google
+Number of Tuples: 40
+Loading pre-trained spanBERT from ./SpanBERT/pretrained_spanbert
+=========== Iteration: 0 - Query: sundar pichai google =============
+URL (1/10) :
+https://en.wikipedia.org/wiki/Sundar_Pichai
+Webpage length (num characters): 34142
+Trimming webpage content from 34142 to 10000 characters
+Extracted 105 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: Sundar PichaiPichai in 2023BornPichai Sundararajan (1972-06-10) June 10, 1972 (age 51)Madurai, Tamil Nadu, IndiaNationalityIndianCitizenshipUnited StatesEducationIIT Kharagpur (BTech)Stanford University (MS)University of Pennsylvania (MBA)OccupationBusinessmanTitleCEO of Alphabet and GoogleBoard member ofAlphabet Inc.[1]Magic Leap (2014–2018)[2]SpouseAnjali PichaiChildren2Awards Padma Bhushan (2022) Sundar Pichai's voice Sundar Pichai on being CEO of GoogleRecorded December 11, 2018
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: ofAlphabet Inc.[1]Magic	Object: Alphabet
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sundar PichaiPichai in 2023BornPichai Sundararajan (1972-06-10) June 10, 1972 (age 51)Madurai, Tamil Nadu, IndiaNationalityIndianCitizenshipUnited StatesEducationIIT Kharagpur (BTech)Stanford University (MS)University of Pennsylvania (MBA)OccupationBusinessmanTitleCEO of Alphabet and GoogleBoard member ofAlphabet Inc.[1]Magic Leap (2014–2018)[2]SpouseAnjali PichaiChildren2Awards Padma Bhushan (2022) Sundar Pichai's voice Sundar Pichai on being CEO of GoogleRecorded December 11, 2018
+		Relation: per:employee_of (Confidence: 0.560)
+Subject: Padma Bhushan	Object: Alphabet
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sundar PichaiPichai in 2023BornPichai Sundararajan (1972-06-10) June 10, 1972 (age 51)Madurai, Tamil Nadu, IndiaNationalityIndianCitizenshipUnited StatesEducationIIT Kharagpur (BTech)Stanford University (MS)University of Pennsylvania (MBA)OccupationBusinessmanTitleCEO of Alphabet and GoogleBoard member ofAlphabet Inc.[1]Magic Leap (2014–2018)[2]SpouseAnjali PichaiChildren2Awards Padma Bhushan (2022) Sundar Pichai's voice Sundar Pichai on being CEO of GoogleRecorded December 11, 2018
+		Relation: per:employee_of (Confidence: 0.560)
+Subject: Sundar Pichai's	Object: Alphabet
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sundar PichaiPichai in 2023BornPichai Sundararajan (1972-06-10) June 10, 1972 (age 51)Madurai, Tamil Nadu, IndiaNationalityIndianCitizenshipUnited StatesEducationIIT Kharagpur (BTech)Stanford University (MS)University of Pennsylvania (MBA)OccupationBusinessmanTitleCEO of Alphabet and GoogleBoard member ofAlphabet Inc.[1]Magic Leap (2014–2018)[2]SpouseAnjali PichaiChildren2Awards Padma Bhushan (2022) Sundar Pichai's voice Sundar Pichai on being CEO of GoogleRecorded December 11, 2018
+		Relation: per:employee_of (Confidence: 0.560)
+Subject: Sundar Pichai	Object: Alphabet
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sundar PichaiPichai in 2023BornPichai Sundararajan (1972-06-10) June 10, 1972 (age 51)Madurai, Tamil Nadu, IndiaNationalityIndianCitizenshipUnited StatesEducationIIT Kharagpur (BTech)Stanford University (MS)University of Pennsylvania (MBA)OccupationBusinessmanTitleCEO of Alphabet and GoogleBoard member ofAlphabet Inc.[1]Magic Leap (2014–2018)[2]SpouseAnjali PichaiChildren2Awards Padma Bhushan (2022) Sundar Pichai's voice Sundar Pichai on being CEO of GoogleRecorded December 11, 2018
+		Relation: per:employee_of (Confidence: 0.904)
+Subject: ofAlphabet Inc.[1]Magic	Object: GoogleBoard
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Signature Pichai Sundararajan (born June 10, 1972[3][4][5]), better known as Sundar Pichai (/ˈsʊndɑːr pɪˈtʃaɪ/), is an Indian-born American business executive.[6][7]
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Sundar Pichai	Object: executive.[6][7
+		Adding to set of extracted relations
+		==========
+Processed 10 / 105 sentences
+Processed 15 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: In 2013, Pichai added Android to the list of Google products that he oversaw.
+		Relation: per:employee_of (Confidence: 0.773)
+Subject: Pichai	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Pichai was selected to become the next CEO of Google on August 10, 2015, after previously being appointed Product Chief by the then CEO Larry Page.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Pichai	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Pichai was selected to become the next CEO of Google on August 10, 2015, after previously being appointed Product Chief by the then CEO Larry Page.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Larry Page	Object: Google
+		Adding to set of extracted relations
+		==========
+Processed 20 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: His mother, Lakshmi, was a stenographer, and his father, Regunatha Pichai, was an electrical engineer at GEC, the British conglomerate.[17][18] Pichai completed schooling in Jawahar Vidyalaya Senior Secondary School[19] in Ashok Nagar, Chennai and completed the Class XII from Vana Vani school at IIT Madras.[20][21]
+		Relation: per:employee_of (Confidence: 0.944)
+Subject: Regunatha Pichai	Object: GEC
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Career Pichai speaking at the 2015 Mobile World Congress in Barcelona, Spain Pichai worked in engineering and product management at Applied Materials and in management consulting at McKinsey & Company.[26]
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Pichai	Object: Applied Materials
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Career Pichai speaking at the 2015 Mobile World Congress in Barcelona, Spain Pichai worked in engineering and product management at Applied Materials and in management consulting at McKinsey & Company.[26]
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Pichai	Object: McKinsey & Company.[26
+		Adding to set of extracted relations
+		==========
+Processed 25 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: On March 13, 2013, Pichai added Android to the list of Google products that he oversaw.
+		Relation: per:employee_of (Confidence: 0.773)
+Subject: Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 30 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: Android was formerly managed by Andy Rubin,[32] who was a director of Jive Software from April 2011 to July 30, 2013.[33][34][35]
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Andy Rubin,[32	Object: Jive Software
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Pichai was selected to become the next CEO of Google on August 10, 2015,[36] after previously being appointed Product Chief by CEO, Larry Page.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Pichai was selected to become the next CEO of Google on August 10, 2015,[36] after previously being appointed Product Chief by CEO, Larry Page.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Larry Page	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Pichai had been suggested as a contender for Microsoft's CEO in 2014, a position that was eventually given to Satya Nadella.[38][39]
+		Relation: per:employee_of (Confidence: 0.883)
+Subject: Satya Nadella.[38][39	Object: Microsoft
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In August 2017, Pichai drew publicity for firing a Google employee who wrote a ten-page manifesto criticizing the company's diversity policies.[40][41][42][43][44]
+		Relation: per:employee_of (Confidence: 0.549)
+Subject: Pichai	Object: Google
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 35 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: In December 2017, Pichai was a speaker at the World Internet Conference in China, where he stated that "a lot of work Google does is to help Chinese companies.
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Pichai	Object: the World Internet Conference
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In December 2019, Pichai became the CEO of Alphabet Inc.[47][48]
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Pichai	Object: Alphabet
+		Adding to set of extracted relations
+		==========
+Processed 40 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.789)
+Subject: Pichai	Object: Twitter
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.919)
+Subject: Mark Zuckerberg	Object: Facebook
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.980)
+Subject: Jack Dorsey	Object: Facebook
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.726)
+Subject: Mark Zuckerberg	Object: Meta
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.992)
+Subject: Jack Dorsey	Object: Meta
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.929)
+Subject: Mark Zuckerberg	Object: Twitter
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In October 2020, the United States Senate Committee on Commerce, Science, and Transportation unanimously voted in favor of, and on a bipartisan basis, to subpoena Pichai, along with Facebook (today Meta) CEO Mark Zuckerberg and then Twitter CEO Jack Dorsey, to testify before the committee in response to lawmakers' concerns over the technology industry's exemption from Section 230 of the Communications Decency Act of 1934.[53] Awards and recognition In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry[54] from the Government of India, the country's third-highest civilian award.[55][56]
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Jack Dorsey	Object: Twitter
+		Adding to set of extracted relations
+		==========
+Processed 45 / 105 sentences
+Processed 50 / 105 sentences
+Processed 55 / 105 sentences
+Processed 60 / 105 sentences
+Processed 65 / 105 sentences
+Processed 70 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: "Sundar Pichai, in full Pichai Sundararajan, (born June 10, 1972, Madras [now Chennai], Tamil Nadu, India), Indian-born American executive who was CEO of both Google, Inc. (2015– ), and its holding company, Alphabet Inc. (2019– )."
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Pichai Sundararajan	Object: Google, Inc.
+		Adding to set of extracted relations
+		==========
+Processed 75 / 105 sentences
+Processed 80 / 105 sentences
+Processed 85 / 105 sentences
+
+		=== Extracted Relation ===
+	Sentence: "Google CEO Sundar Pichai Appointed To Alphabet Board Of Directors".
+		Relation: per:employee_of (Confidence: 0.990)
+Subject: Sundar Pichai	Object: Google
+		Adding to set of extracted relations
+		==========
+Processed 90 / 105 sentences
+Processed 95 / 105 sentences
+Processed 100 / 105 sentences
+Processed 105 / 105 sentences
+Extracted annotations for  0  out of total  105  sentences
+Relations extracted from this website: 23 (Overall: 29)
+URL (2/10) :
+https://blog.google/authors/sundar-pichai/
+Webpage length (num characters): 3687
+Extracted 24 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 24 sentences
+Processed 10 / 24 sentences
+
+		=== Extracted Relation ===
+	Sentence: See all Around the globe Google in Asia Google in Europe Google in Latin America See all Authors Sundar Pichai, CEO Ruth Porat, SVP and CFO Kent Walker, SVP See all Outreach & initiatives Diversity and inclusion Education Google.org Grow with Google Sustainability See all Technology AI Developers Families Next billion users Safety and security See all Inside Google Data centers and infrastructure Doodles Googlers Life at Google
+		Relation: per:employee_of (Confidence: 0.844)
+Subject: Ruth Porat	Object: SVP
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: See all Around the globe Google in Asia Google in Europe Google in Latin America See all Authors Sundar Pichai, CEO Ruth Porat, SVP and CFO Kent Walker, SVP
+		Relation: per:employee_of (Confidence: 0.844)
+Subject: Ruth Porat	Object: SVP
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 15 / 24 sentences
+
+		=== Extracted Relation ===
+	Sentence: See all Around the globe Google in Asia Google in Europe Google in Latin America See all Authors Sundar Pichai, CEO Ruth Porat, SVP and CFO Kent Walker, SVP
+		Relation: per:employee_of (Confidence: 0.844)
+Subject: Ruth Porat	Object: SVP
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 20 / 24 sentences
+Extracted annotations for  0  out of total  24  sentences
+Relations extracted from this website: 1 (Overall: 3)
+URL (3/10) :
+https://www.instagram.com/sundarpichai/?hl=en
+Webpage length (num characters): 9
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (4/10) :
+https://www.businessinsider.com/calls-for-google-ceo-sundar-pichai-alphabet-step-down-ai-2024-3
+Webpage length (num characters): 8632
+Extracted 77 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 77 sentences
+Processed 10 / 77 sentences
+Processed 15 / 77 sentences
+
+		=== Extracted Relation ===
+	Sentence: Log in Subscribe Tech There are growing calls for Google CEO Sundar Pichai to step down Hugh Langley 2024-03-01T20:44:21Z Share icon An curved arrow pointing right.
+		Relation: per:employee_of (Confidence: 0.994)
+Subject: Sundar Pichai	Object: Google
+		Adding to set of extracted relations
+		==========
+Processed 20 / 77 sentences
+Processed 25 / 77 sentences
+Processed 30 / 77 sentences
+Processed 35 / 77 sentences
+Processed 40 / 77 sentences
+Processed 45 / 77 sentences
+
+		=== Extracted Relation ===
+	Sentence: Related stories Pichai, who was appointed CEO of Google in 2015 and Alphabet in 2019, has proven to be a strong peacetime CEO.
+		Relation: per:employee_of (Confidence: 0.993)
+Subject: Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 50 / 77 sentences
+
+		=== Extracted Relation ===
+	Sentence: Aravind Srinivas — a founder and CEO of Perplexity, a former OpenAI researcher, and a former Google and DeepMind intern — also weighed in on the debate about Pichai's future this week and even theorized who might replace the CEO.
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Aravind Srinivas	Object: Perplexity
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Aravind Srinivas — a founder and CEO of Perplexity, a former OpenAI researcher, and a former Google and DeepMind intern — also weighed in on the debate about Pichai's future this week and even theorized who might replace the CEO.
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Aravind Srinivas	Object: OpenAI
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Aravind Srinivas — a founder and CEO of Perplexity, a former OpenAI researcher, and a former Google and DeepMind intern — also weighed in on the debate about Pichai's future this week and even theorized who might replace the CEO.
+		Relation: per:employee_of (Confidence: 0.992)
+Subject: Aravind Srinivas	Object: Google
+		Adding to set of extracted relations
+		==========
+Processed 55 / 77 sentences
+
+		=== Extracted Relation ===
+	Sentence: Advertisement "Sundar is also the CEO of Alphabet, and he is best positioned to appoint the CEO of Google," whether that's someone new from outside the company, or an internal candidate, or "having himself continue," Srinivas wrote on X.Marissa has viewsEven Marissa Mayer, who was Google's 20th employee ever and worked there for 13 years, got involved in the debate.
+		Relation: per:employee_of (Confidence: 0.994)
+Subject: Srinivas	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Advertisement "Sundar is also the CEO of Alphabet, and he is best positioned to appoint the CEO of Google," whether that's someone new from outside the company, or an internal candidate, or "having himself continue," Srinivas wrote on X.Marissa has viewsEven Marissa Mayer, who was Google's 20th employee ever and worked there for 13 years, got involved in the debate.
+		Relation: per:employee_of (Confidence: 0.933)
+Subject: X.Marissa	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Advertisement "Sundar is also the CEO of Alphabet, and he is best positioned to appoint the CEO of Google," whether that's someone new from outside the company, or an internal candidate, or "having himself continue," Srinivas wrote on X.Marissa has viewsEven Marissa Mayer, who was Google's 20th employee ever and worked there for 13 years, got involved in the debate.
+		Relation: per:employee_of (Confidence: 0.974)
+Subject: Marissa Mayer	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Responding to a tweet by Othman Laraki, the CEO of Color Health, who said Google is facing an "unsolvable problem," Mayer somewhat defended Google."I
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Othman Laraki	Object: Color Health
+		Adding to set of extracted relations
+		==========
+Processed 60 / 77 sentences
+Processed 65 / 77 sentences
+
+		=== Extracted Relation ===
+	Sentence: On February 28, Axel Springer, Business Insider's parent company, joined 31 other media groups and filed a $2.3 billion suit against Google in Dutch court, alleging losses suffered due to the company's advertising practices.
+		Relation: per:employee_of (Confidence: 0.577)
+Subject: Axel Springer	Object: Google
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 70 / 77 sentences
+Processed 75 / 77 sentences
+Extracted annotations for  0  out of total  77  sentences
+Relations extracted from this website: 8 (Overall: 10)
+URL (5/10) :
+https://twitter.com/sundarpichai?lang=en
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 7 sentences
+Extracted annotations for  0  out of total  7  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (6/10) :
+https://www.semafor.com/article/02/27/2024/google-ceo-sundar-pichai-calls-ai-tools-responses-completely-unacceptable
+Webpage length (num characters): 6109
+Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+	Sentence: Google CEO Sundar Pichai calls AI toolâs responses âcompletely unacceptableâ | SemaforEventsNewslettersHomepoliticsbusinesstechnologynet zeroafricasecuritymediaVideo
+		Relation: per:employee_of (Confidence: 0.989)
+Subject: Sundar Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 5 / 58 sentences
+Processed 10 / 58 sentences
+
+		=== Extracted Relation ===
+	Sentence: viewThe ScoopGoogle CEO Sundar Pichai addressed the companyâs Gemini controversy Tuesday evening, calling the AI appâs problematic responses around race unacceptable and vowing to make structural changes to fix the problem.
+		Relation: per:employee_of (Confidence: 0.826)
+Subject: Sundar Pichai	Object: ScoopGoogle
+		Adding to set of extracted relations
+		==========
+Processed 15 / 58 sentences
+Processed 20 / 58 sentences
+Processed 25 / 58 sentences
+Processed 30 / 58 sentences
+Processed 35 / 58 sentences
+Processed 40 / 58 sentences
+Processed 45 / 58 sentences
+Processed 50 / 58 sentences
+Processed 55 / 58 sentences
+Extracted annotations for  0  out of total  58  sentences
+Relations extracted from this website: 1 (Overall: 2)
+URL (7/10) :
+https://www.britannica.com/biography/Sundar-Pichai
+Webpage length (num characters): 7017
+Extracted 50 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 50 sentences
+Processed 10 / 50 sentences
+Processed 15 / 50 sentences
+Processed 20 / 50 sentences
+Processed 25 / 50 sentences
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Sundararajan Pichai	Object: Encyclopædia Britannica
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Sundararajan Pichai	Object: Britannica Book of the Year
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.992)
+Subject: Melinda C. Shepherd	Object: Encyclopædia Britannica
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Melinda C. Shepherd	Object: Britannica Book of the Year
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.994)
+Subject: Melinda Shepherd	Object: Encyclopædia Britannica
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Feedback Also known as: Sundararajan Pichai Written by Melinda C. Shepherd Melinda Shepherd became an editor at Encyclopædia Britannica in 1988 and served as a senior editor of Britannica Book of the Year from 2004 to 2016.
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Melinda Shepherd	Object: Britannica Book of the Year
+		Adding to set of extracted relations
+		==========
+Processed 30 / 50 sentences
+Processed 35 / 50 sentences
+
+		=== Extracted Relation ===
+	Sentence: Google CEO Pichai says Gemini's AI image results "offended our users" Show More Show
+		Relation: per:employee_of (Confidence: 0.995)
+Subject: Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 40 / 50 sentences
+Processed 45 / 50 sentences
+
+		=== Extracted Relation ===
+	Sentence: Therefore, when Google cofounders Larry Page and Sergey Brin announced the creation of Alphabet Inc., in August 2015, it came as no surprise to industry insiders that Pichai was named CEO of Google, which was reorganized as a subsidiary.
+		Relation: per:employee_of (Confidence: 0.984)
+Subject: Larry Page	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: In December 2019 he also was named CEO of Alphabet, replacing Page, who stepped down.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Page	Object: Alphabet
+		Adding to set of extracted relations
+		==========
+Processed 50 / 50 sentences
+Extracted annotations for  0  out of total  50  sentences
+Relations extracted from this website: 7 (Overall: 9)
+URL (8/10) :
+https://www.businessroundtable.org/about-us/members/sundar-pichai-ceo-alphabet-inc
+Webpage length (num characters): 4569
+Extracted 19 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+	Sentence: Sundar Pichai, CEO, Alphabet Inc., CEO, Alphabet Inc.
+		Relation: per:employee_of (Confidence: 0.904)
+Subject: Sundar Pichai	Object: Alphabet Inc.
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sundar Pichai, CEO, Alphabet Inc., CEO, Alphabet Inc.
+		Relation: per:employee_of (Confidence: 0.984)
+Subject: Sundar Pichai	Object: Alphabet Inc.
+		Adding to set of extracted relations
+		==========
+Processed 5 / 19 sentences
+Processed 10 / 19 sentences
+Processed 15 / 19 sentences
+Extracted annotations for  0  out of total  19  sentences
+Relations extracted from this website: 2 (Overall: 2)
+URL (9/10) :
+https://www.cnbc.com/2024/02/28/google-ceo-tells-employees-gemini-ai-blunder-unacceptable.html
+Webpage length (num characters): 9240
+Extracted 64 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 64 sentences
+Processed 10 / 64 sentences
+Processed 15 / 64 sentences
+
+		=== Extracted Relation ===
+	Sentence: TVWatchlistInvesting ClubPROMenuAI ImpactAI ImpactGoogle CEO tells employees Gemini AI blunder ‘unacceptable’Published Wed, Feb 28 202411:00 AM ESTUpdated Thu, Feb 29 202410:54 AM ESTJennifer Elias@jenn_eliasWATCH LIVEKey PointsGoogle CEO Sundar Pichai said in a memo that the company is working around the clock on a fix for its artificial intelligence image generator tool.
+		Relation: per:employee_of (Confidence: 0.558)
+Subject: ImpactGoogle	Object: Gemini
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: TVWatchlistInvesting ClubPROMenuAI ImpactAI ImpactGoogle CEO tells employees Gemini AI blunder ‘unacceptable’Published Wed, Feb 28 202411:00 AM ESTUpdated Thu, Feb 29 202410:54 AM ESTJennifer Elias@jenn_eliasWATCH LIVEKey PointsGoogle CEO Sundar Pichai said in a memo that the company is working around the clock on a fix for its artificial intelligence image generator tool.
+		Relation: per:employee_of (Confidence: 0.996)
+Subject: Sundar Pichai	Object: ESTJennifer Elias@jenn_eliasWATCH LIVEKey
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: TVWatchlistInvesting ClubPROMenuAI ImpactAI ImpactGoogle CEO tells employees Gemini AI blunder ‘unacceptable’Published Wed, Feb 28 202411:00 AM ESTUpdated Thu, Feb 29 202410:54 AM ESTJennifer Elias@jenn_eliasWATCH LIVEKey PointsGoogle CEO Sundar Pichai said in a memo that the company is working around the clock on a fix for its artificial intelligence image generator tool.
+		Relation: per:employee_of (Confidence: 0.997)
+Subject: Sundar Pichai	Object: PointsGoogle
+		Adding to set of extracted relations
+		==========
+Processed 20 / 64 sentences
+
+		=== Extracted Relation ===
+	Sentence: your favorite stocksCREATE FREE ACCOUNTGoogle CEO Sundar Pichai speaks with Emily Chang during the APEC CEO Summit at Moscone Center West in San Francisco on Nov. 16, 2023.Justin Sullivan | Getty Images News | Getty ImagesIn a memo Tuesday evening, Google CEO Sundar Pichai addressed the company’s artificial intelligence mistakes, which led to Google taking its Gemini image-generation feature offline for further testing.
+		Relation: per:employee_of (Confidence: 0.964)
+Subject: Sundar Pichai	Object: 2023.Justin Sullivan | Getty Images News
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: your favorite stocksCREATE FREE ACCOUNTGoogle CEO Sundar Pichai speaks with Emily Chang during the APEC CEO Summit at Moscone Center West in San Francisco on Nov. 16, 2023.Justin Sullivan | Getty Images News | Getty ImagesIn a memo Tuesday evening, Google CEO Sundar Pichai addressed the company’s artificial intelligence mistakes, which led to Google taking its Gemini image-generation feature offline for further testing.
+		Relation: per:employee_of (Confidence: 0.979)
+Subject: Sundar Pichai	Object: Google
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 25 / 64 sentences
+Processed 30 / 64 sentences
+Processed 35 / 64 sentences
+Processed 40 / 64 sentences
+Processed 45 / 64 sentences
+Processed 50 / 64 sentences
+Processed 55 / 64 sentences
+Processed 60 / 64 sentences
+Extracted annotations for  0  out of total  64  sentences
+Relations extracted from this website: 3 (Overall: 5)
+URL (10/10) :
+http://abc.xyz/
+Webpage length (num characters): 5860
+Extracted 59 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 59 sentences
+Processed 10 / 59 sentences
+Processed 15 / 59 sentences
+Processed 20 / 59 sentences
+Processed 25 / 59 sentences
+Processed 30 / 59 sentences
+Processed 35 / 59 sentences
+Processed 40 / 59 sentences
+Processed 45 / 59 sentences
+Processed 50 / 59 sentences
+Processed 55 / 59 sentences
+Extracted annotations for  0  out of total  59  sentences
+Relations extracted from this website: 0 (Overall: 0)
+================================================================================
+ALL RELATIONS for per:employee_of (41)
+================================================================================
+Confidence: 0.9973000 	| Subject: Pichai 	| Object: Alphabet
+Confidence: 0.9972771 	| Subject: Sundar Pichai 	| Object: PointsGoogle
+Confidence: 0.9972591 	| Subject: Larry Page 	| Object: Google
+Confidence: 0.9970755 	| Subject: Pichai 	| Object: Google
+Confidence: 0.9969577 	| Subject: ofAlphabet Inc.[1]Magic 	| Object: Alphabet
+Confidence: 0.9968208 	| Subject: Page 	| Object: Alphabet
+Confidence: 0.9966107 	| Subject: Sundararajan Pichai 	| Object: Britannica Book of the Year
+Confidence: 0.9965261 	| Subject: Sundar Pichai 	| Object: executive.[6][7
+Confidence: 0.9964548 	| Subject: Pichai Sundararajan 	| Object: Google, Inc.
+Confidence: 0.9963161 	| Subject: Andy Rubin,[32 	| Object: Jive Software
+Confidence: 0.9962886 	| Subject: Melinda Shepherd 	| Object: Britannica Book of the Year
+Confidence: 0.9960235 	| Subject: Pichai 	| Object: Applied Materials
+Confidence: 0.9957357 	| Subject: Sundar Pichai 	| Object: ESTJennifer Elias@jenn_eliasWATCH LIVEKey
+Confidence: 0.9957271 	| Subject: Pichai 	| Object: the World Internet Conference
+Confidence: 0.9955069 	| Subject: Jack Dorsey 	| Object: Twitter
+Confidence: 0.9955031 	| Subject: Melinda C. Shepherd 	| Object: Britannica Book of the Year
+Confidence: 0.9954632 	| Subject: Aravind Srinivas 	| Object: Perplexity
+Confidence: 0.9953076 	| Subject: Othman Laraki 	| Object: Color Health
+Confidence: 0.9950949 	| Subject: Pichai 	| Object: McKinsey & Company.[26
+Confidence: 0.9950010 	| Subject: Sundararajan Pichai 	| Object: Encyclopædia Britannica
+Confidence: 0.9949706 	| Subject: Aravind Srinivas 	| Object: OpenAI
+Confidence: 0.9942706 	| Subject: Melinda Shepherd 	| Object: Encyclopædia Britannica
+Confidence: 0.9937890 	| Subject: Sundar Pichai 	| Object: Google
+Confidence: 0.9935331 	| Subject: Srinivas 	| Object: Google
+Confidence: 0.9924640 	| Subject: Melinda C. Shepherd 	| Object: Encyclopædia Britannica
+Confidence: 0.9924460 	| Subject: Jack Dorsey 	| Object: Meta
+Confidence: 0.9919569 	| Subject: Aravind Srinivas 	| Object: Google
+Confidence: 0.9836565 	| Subject: Sundar Pichai 	| Object: Alphabet Inc.
+Confidence: 0.9802833 	| Subject: Jack Dorsey 	| Object: Facebook
+Confidence: 0.9742904 	| Subject: Marissa Mayer 	| Object: Google
+Confidence: 0.9644570 	| Subject: Sundar Pichai 	| Object: 2023.Justin Sullivan | Getty Images News
+Confidence: 0.9442318 	| Subject: Regunatha Pichai 	| Object: GEC
+Confidence: 0.9332241 	| Subject: X.Marissa 	| Object: Google
+Confidence: 0.9291089 	| Subject: Mark Zuckerberg 	| Object: Twitter
+Confidence: 0.9186752 	| Subject: Mark Zuckerberg 	| Object: Facebook
+Confidence: 0.9035462 	| Subject: ofAlphabet Inc.[1]Magic 	| Object: GoogleBoard
+Confidence: 0.8829768 	| Subject: Satya Nadella.[38][39 	| Object: Microsoft
+Confidence: 0.8444577 	| Subject: Ruth Porat 	| Object: SVP
+Confidence: 0.8257364 	| Subject: Sundar Pichai 	| Object: ScoopGoogle
+Confidence: 0.7890127 	| Subject: Pichai 	| Object: Twitter
+Confidence: 0.7263550 	| Subject: Mark Zuckerberg 	| Object: Meta
+Total # of iterations =  1

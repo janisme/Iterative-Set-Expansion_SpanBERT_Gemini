@@ -1,0 +1,737 @@
+python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "xxx" 1 0.0 "sergey brin stanford" 10
+Parameters:
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: xxx
+Mode: -gemini
+Relation: per:schools_attended
+Seed Query: sergey brin stanford
+Number of Tuples: 10
+=========== Iteration: 0 - Query: sergey brin stanford =============
+URL (1/10) : https://engineering.stanford.edu/about/heroes/2014-heroes/sergey-brin
+Webpage length (num characters): 6734
+Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Sergey Brin | Stanford University School of Engineering Skip to main content Skip to secondary navigation Stanford University (link is external)
+
+                Subject: Sergey Brin ;  Object: Stanford University School of Engineering
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 38 sentences
+Processed 10 / 38 sentences
+Processed 15 / 38 sentences
+Processed 20 / 38 sentences
+
+                === Extracted Relation ===
+                Sentence:Secondary Navigation Dean Dean’s Office Diversity, Equity and Inclusion Visit History Persis S. Drell Heroes 2019 Heroes 2018 Heroes 2016 Heroes 2015 Heroes 2014 Heroes Kenneth Arrow Sergey Brin Irmgard Flugge-Lotz Edward Ginzton Larry Page Sally Ride 2013 Heroes 2012 Heroes 2011 Heroes SoE-Future Main content start Sergey Brin — Google co-founder Sergey Brin co-founded web-search giant Google Inc. in 1998 with fellow Stanford student Larry Page.
+
+                Subject: Sergey Brin ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Brin earned his master’s degree in computer science at Stanford, where he and Page developed the “PageRank” algorithm, which calculated the relevance of a web page to the user’s query based in part on the number of other pages that linked to it.
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 38 sentences
+Processed 30 / 38 sentences
+Processed 35 / 38 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : Facebook Twitter LinkedIn Youtube Instagram Stanford Engineering News Events Departments Open Faculty Positions Open Staff Positions Intranet Give Visit Contact Us Sign up for our email Your source for the latest from the School of Engineering Subscribe now StanfordUniversity (link is external)
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  18  out of total  38  sentences from spaCy, 3 from Gemini.
+Relations extracted from this website: 3 (Overall: 3)
+
+
+URL (2/10) : http://infolab.stanford.edu/~sergey/
+Webpage length (num characters): 4577
+Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Sergey Brin Sergey Brin's Home Page Ph.D. student in Computer Science at Stanford - sergey@cs.stanford.edu Research Currently I am at Google.
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 58 sentences
+Processed 10 / 58 sentences
+
+                === Extracted Relation ===
+                Sentence:Dynamic Data Mining: A New Architecture for Data with High Dimensionality by Sergey Brin and Lawrence Page.
+
+                Subject: Sergey Brin ;  Object: Stanford University School of Engineering
+                Adding to set of extracted relations...
+
+                Subject: Lawrence Page ;        Object: Stanford University School of Engineering
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(postscript) Scalable Techniques for Mining Causal Structures by Craig Silverstein, Sergey Brin, Rajeev Motwani, and Jeff Ullman.
+
+                Subject: Craig Silverstein ;    Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Rajeev Motwani ;       Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Jeff Ullman ;  Object: NULL
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 58 sentences
+Processed 20 / 58 sentences
+
+                === Extracted Relation ===
+                Sentence:Generalizing Association Rules to Correlations by Craig Silverstein, Rajeev Motwani, and Sergey Brin.
+
+                Subject: Craig Silverstein ;    Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Rajeev Motwani ;       Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: NULL
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 58 sentences
+Processed 30 / 58 sentences
+Processed 35 / 58 sentences
+Processed 40 / 58 sentences
+Processed 45 / 58 sentences
+Processed 50 / 58 sentences
+Processed 55 / 58 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : Escondido Village #22D Stanford, CA 94305
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  18  out of total  58  sentences from spaCy, 4 from Gemini.
+Relations extracted from this website: 5 (Overall: 8)
+
+
+URL (3/10) : https://en.wikipedia.org/wiki/Sergey_Brin
+Webpage length (num characters): 39157
+Trimming webpage content from 39157 to 10000 characters
+Extracted 73 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 73 sentences
+Processed 10 / 73 sentences
+
+                === Extracted Relation ===
+                Sentence:Sergey BrinСергей БринBrin in 2010BornSergey Mikhailovich Brin (1973-08-21) August 21, 1973 (age 50)Moscow, Russian SFSR, Soviet UnionNationalityAmericanEducation University of Maryland, College Park (BS) Stanford University (MS) OccupationsBusinessmancomputer scientistOrganizationsGoogleAlphabet, Inc.Known for Co-founding Google Co-founding Alphabet Inc.
+
+                Subject: Sergey Brin ;  Object: University of Maryland
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 73 sentences
+Processed 20 / 73 sentences
+Processed 25 / 73 sentences
+
+                === Extracted Relation ===
+                Sentence:Mikhail and Eugenia Brin, both graduates of Moscow State University (MSU).[7]
+
+                Subject: Mikhail Brin ; Object: Moscow State University
+                Adding to set of extracted relations...
+
+                Subject: Eugenia Brin ; Object: Moscow State University
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 73 sentences
+Processed 35 / 73 sentences
+
+                === Extracted Relation ===
+                Sentence:Brin attended elementary school at Paint Branch Montessori School in Adelphi, Maryland, but he received further education at home; his father, a professor in the department of mathematics at the University of Maryland, encouraged him to learn mathematics and his family helped him retain his Russian-language skills.
+
+                Subject: Brin ; Object: Paint Branch Montessori School
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In September 1990, Brin enrolled in the University of Maryland, where he received his Bachelor of Science from the Department of Computer Science in 1993 with honors in computer science and mathematics at the age of 19.[11]
+
+                Subject: Sergey Brin ;  Object: University of Maryland
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 73 sentences
+
+                === Extracted Relation ===
+                Sentence:Brin began his graduate study in computer science at Stanford University on a graduate fellowship from the National Science Foundation, receiving an M.S. in computer science in 1995.[12]
+
+                Subject: Sergey Brin ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Search engine development[edit] Left to right, Eric Schmidt, Sergey Brin and Larry Page, 2008 During an orientation for new students at Stanford, he met Larry Page.
+
+                Subject: Larry Page ;   Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 73 sentences
+Processed 50 / 73 sentences
+Processed 55 / 73 sentences
+Processed 60 / 73 sentences
+Processed 65 / 73 sentences
+Processed 70 / 73 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : Some compared Page and Brin's vision to the impact of Johannes Gutenberg, the inventor of modern printing:
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  27  out of total  73  sentences from spaCy, 6 from Gemini.
+Relations extracted from this website: 5 (Overall: 13)
+
+
+URL (4/10) : https://www.quora.com/What-was-it-like-to-be-at-Stanford-with-Sergey-Brin-and-Larry-Page
+Webpage length (num characters): 193
+Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:What was it like to be at Stanford with Sergey Brin and Larry Page? -
+
+                Subject: Sergey Brin ;  Object: Stanford University
+                Adding to set of extracted relations...
+
+                Subject: Larry Page ;   Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : What was it like to be at Stanford with Sergey Brin and Larry Page? -
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  1  out of total  4  sentences from spaCy, 1 from Gemini.
+Relations extracted from this website: 1 (Overall: 14)
+
+
+URL (5/10) : https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
+Webpage length (num characters): 1271060
+Trimming webpage content from 1271060 to 10000 characters
+Extracted 229 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 229 sentences
+Processed 10 / 229 sentences
+Processed 15 / 229 sentences
+Processed 20 / 229 sentences
+Processed 25 / 229 sentences
+Processed 30 / 229 sentences
+Processed 35 / 229 sentences
+Processed 40 / 229 sentences
+Processed 45 / 229 sentences
+Processed 50 / 229 sentences
+Processed 55 / 229 sentences
+Processed 60 / 229 sentences
+Processed 65 / 229 sentences
+Processed 70 / 229 sentences
+Processed 75 / 229 sentences
+Processed 80 / 229 sentences
+Processed 85 / 229 sentences
+Processed 90 / 229 sentences
+Processed 95 / 229 sentences
+Processed 100 / 229 sentences
+Processed 105 / 229 sentences
+Processed 110 / 229 sentences
+Processed 115 / 229 sentences
+Processed 120 / 229 sentences
+Processed 125 / 229 sentences
+Processed 130 / 229 sentences
+Processed 135 / 229 sentences
+Processed 140 / 229 sentences
+Processed 145 / 229 sentences
+Processed 150 / 229 sentences
+Processed 155 / 229 sentences
+Processed 160 / 229 sentences
+Processed 165 / 229 sentences
+Processed 170 / 229 sentences
+Processed 175 / 229 sentences
+Processed 180 / 229 sentences
+Processed 185 / 229 sentences
+Processed 190 / 229 sentences
+Processed 195 / 229 sentences
+Processed 200 / 229 sentences
+Processed 205 / 229 sentences
+Processed 210 / 229 sentences
+Processed 215 / 229 sentences
+Processed 220 / 229 sentences
+Processed 225 / 229 sentences
+
+Extracted annotations for  1  out of total  229  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 14)
+
+
+URL (6/10) : https://news.stanford.edu/2022/08/05/wastewaterscan-will-monitor-wastewater-covid-19-monkeypox-diseases/
+Webpage length (num characters): 7482
+Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 38 sentences
+
+                === Extracted Relation ===
+                Sentence:Stanford undergraduate Julia Simon collects wastewater from the Codiga Resource Recovery Center on the Stanford campus for analysis.
+
+                Subject: Julia Simon ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 38 sentences
+
+                === Extracted Relation ===
+                Sentence:We’ve seen how valuable this can be as individual testing practices for SARS-CoV-2 have changed,” said Alexandria Boehm, professor of civil and environmental engineering at Stanford.
+
+                Subject: Alexandria Boehm ;     Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 38 sentences
+
+                === Extracted Relation ===
+                Sentence:“We need to rethink our paradigm for tracking infectious disease and anticipating new threats,” said Marlene Wolfe, assistant professor of environmental health at Emory University and co-principal investigator for WastewaterSCAN.
+
+                Subject: Marlene Wolfe ;        Object: Emory University
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 38 sentences
+Processed 25 / 38 sentences
+Processed 30 / 38 sentences
+
+                === Extracted Relation ===
+                Sentence:Media Contacts Jill Wu, School of Engineering:
+
+                Subject: Jill Wu ;      Object: School of Engineering
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 38 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : For Journalists Press Releases Media Contacts Stanford Experts See Also Contact Stanford News Faculty / Staff Resources Events Events calendar Stanford News is a publication of Stanford University Communications Stanford Home Maps & Directions Search Stanford Emergency Info Terms of Use Privacy Copyright Trademarks Non-Discrimination Accessibility © Stanford University.
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  17  out of total  38  sentences from spaCy, 4 from Gemini.
+Relations extracted from this website: 4 (Overall: 18)
+
+
+URL (7/10) : https://achievement.org/achiever/sergey-brin/
+Webpage length (num characters): 47793
+Trimming webpage content from 47793 to 10000 characters
+Extracted 79 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 79 sentences
+
+                === Extracted Relation ===
+                Sentence:His father, Michael Brin, was a professor of mathematics at the University of Maryland.
+
+                Subject: Michael Brin ; Object: University of Maryland
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 79 sentences
+
+                === Extracted Relation ===
+                Sentence:Like Larry Page, he attended a Montessori school as a small child.
+
+                Subject: Larry Page ;   Object: Montessori school
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:He graduated from Eleanor Roosevelt High School in 1990 and entered the University of Maryland, College Park.
+
+                Subject: He ;   Object: Eleanor Roosevelt High School
+                Adding to set of extracted relations...
+
+                Subject: He ;   Object: University of Maryland
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:He entered graduate school at Stanford University with a graduate fellowship from the National Science Foundation.
+
+                Subject: He ;   Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 79 sentences
+Processed 20 / 79 sentences
+
+                === Extracted Relation ===
+                Sentence:At Stanford, Sergey Brin met fellow computer science graduate student Larry Page, who recruited him to join his research project.
+
+                Subject: Sergey Brin ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:The Internet and the World Wide Web were just taking shape as major forces in telecommunication when Larry Page and Sergey Brin entered Stanford.
+
+                Subject: Larry Page ;   Object: Stanford
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 79 sentences
+Processed 30 / 79 sentences
+Processed 35 / 79 sentences
+Processed 40 / 79 sentences
+
+                === Extracted Relation ===
+                Sentence:Sergey Brin and Larry Page, former Academy student delegates, return as Academy guests of honor.
+
+                Subject: Sergey Brin ;  Object: Academy
+                Adding to set of extracted relations...
+
+                Subject: Larry Page ;   Object: Academy
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 79 sentences
+
+                === Extracted Relation ===
+                Sentence:That same year, Larry Page and Sergey Brin, still enrolled as Ph.D. candidates at Stanford, attended the Academy of Achievement’s International Achievement Summit in London, England as graduate student delegates.
+
+                Subject: Larry Page ;   Object: Stanford
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 79 sentences
+Processed 55 / 79 sentences
+Processed 60 / 79 sentences
+Processed 65 / 79 sentences
+Processed 70 / 79 sentences
+Processed 75 / 79 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : The following year, Google acquired the software company DoubleClick for $3.1 billion.
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  30  out of total  79  sentences from spaCy, 8 from Gemini.
+Relations extracted from this website: 7 (Overall: 25)
+
+
+URL (8/10) : https://news.stanford.edu/report/2022/10/26/campus-curiosities/
+Webpage length (num characters): 16131
+Trimming webpage content from 16131 to 10000 characters
+Extracted 78 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 78 sentences
+Processed 10 / 78 sentences
+Processed 15 / 78 sentences
+
+                === Extracted Relation ===
+                Sentence:In a 1926 Stanford Daily article, Anne Hatch McAllister said, “It is entirely fitting that that money should be devoted to a memorial for him at the college which he loved.”
+
+                Subject: Anne Hatch McAllister ;        Object: Stanford Daily
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 78 sentences
+Processed 25 / 78 sentences
+
+                === Extracted Relation ===
+                Sentence:From the Huang Engineering Center Innovations Tour: As electrical engineering undergraduates and graduate students at Stanford in the 1930s, William Hewlett and David Packard encountered three influences that would guide the rest of their lives: the excitement of technology, an entrepreneurial spirit in the emerging field of electronics, and each other’s friendship.
+
+                Subject: William Hewlett ;      Object: Stanford
+                Adding to set of extracted relations...
+
+                Subject: David Packard ;        Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 78 sentences
+Processed 35 / 78 sentences
+Processed 40 / 78 sentences
+Processed 45 / 78 sentences
+
+                === Extracted Relation ===
+                Sentence:Geologist Don Lowe, the Max Steineke Professor in the Stanford Doerr School of Sustainability, took a curatorial methods course taught by Keen when he was an undergraduate.
+
+                Subject: Don Lowe ;     Object: Stanford Doerr School of Sustainability
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 78 sentences
+Processed 55 / 78 sentences
+Processed 60 / 78 sentences
+Processed 65 / 78 sentences
+
+                === Extracted Relation ===
+                Sentence:“So, as students walk to/from the classroom they are literally experiencing the entire Stanford course catalog,” said Drew Endy, the Martin Family University Fellow in Undergraduate Education and associate professor of bioengineering in the schools of Engineering and of Medicine, who was part of a group that consulted on various design aspects of Shriram.
+
+                Subject: Drew Endy ;    Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 70 / 78 sentences
+Processed 75 / 78 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundial This unusual wall-mounted sundial was originally installed on the Terman Building in 1997 by Ronald N. Bracewell, who was the Lewis M. Terman Professor of Electrical Engineering, Emeritus.
+
+                Subject: Ronald N. Bracewell ;  Object: Lewis M. Terman Professor of Electrical Engineering
+                Adding to set of extracted relations...
+                ==========
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : It was built by Bracewell and his son Mark, who were i
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  22  out of total  78  sentences from spaCy, 5 from Gemini.
+Relations extracted from this website: 6 (Overall: 31)
+
+
+URL (9/10) : https://about.google/intl/ALL_us/our-story/
+Webpage length (num characters): 3994
+Extracted 27 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 27 sentences
+
+                === Extracted Relation ===
+                Sentence:Larry Page was considering Stanford for grad school and Sergey Brin, a student there, was assigned to show him around.
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 27 sentences
+Processed 15 / 27 sentences
+Processed 20 / 27 sentences
+Processed 25 / 27 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : YouTube View all products Responsibility Accessibility Crisis response Digital wellbeing Diversity & inclusion Google.org Google Health Google Public Sector Grow with Google Human rights Learning Public Policy Safety Center Supplier responsibility Sustainability More about us Transparency report Community guidelines How our business works Extended workforce Transparency Center Help Privacy Terms
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  11  out of total  27  sentences from spaCy, 1 from Gemini.
+Relations extracted from this website: 0 (Overall: 31)
+
+
+URL (10/10) : https://cee.stanford.edu/news/stanford-school-engineering-names-new-engineering-heroes
+Webpage length (num characters): 10593
+Trimming webpage content from 10593 to 10000 characters
+Extracted 62 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 62 sentences
+Processed 10 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:Irmgard Flügge-Lotz, Stanford’s first female professor of engineering, was internationally renowned for her many important contributions to aerodynamics and to automatic control theory.
+
+                Subject: Irmgard Flügge-Lotz ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Ride, a Stanford-trained physicist, founded Sally Ride Science, which provides tools for college and career readiness than can build students' passion for STEM fields and careers.
+
+                Subject: Ride ; Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:"These Heroes are a testament to the breadth of possibilities in science and engineering," said Jim Plummer, the Frederick Emmons Terman Dean of the Stanford School of Engineering.
+
+                Subject: Jim Plummer ;  Object: Stanford School of Engineering
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:founders Jerry Yang and David Filo, GPS creator Brad Parkinson, Hewlett-Packard founders Bill Hewlett and Dave Packard, and Fred Terman, former Stanford Engineering dean.
+
+                Subject: Jerry Yang ;   Object: Stanford University
+                Adding to set of extracted relations...
+
+                Subject: David Filo ;   Object: Stanford University
+                Adding to set of extracted relations...
+
+                Subject: Fred Terman ;  Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:He received a bachelor's degree from City College of New York, and master's and doctoral degrees from Columbia University.
+
+                Subject: He ;   Object: City College of New York
+                Adding to set of extracted relations...
+
+                Subject: He ;   Object: Columbia University
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:in 1998 with fellow Stanford student Larry Page.
+
+                Subject: Larry Page ;   Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Brin has a bachelor's degree with honors in mathematics and computer science from the University of Maryland at College Park and a master's degree in computer science from Stanford.
+
+                Subject: Sergey Brin ;  Object: University of Maryland at College Park
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 62 sentences
+Processed 35 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:As a Stanford professor of electrical engineering and applied physics, Ginzton led a Stanford team that designed the world’s most powerful particle accelerator.
+
+                Subject: Ginzton ;      Object: Stanford University
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:He earned bachelor’s and master’s degrees in electrical engineering from the University of California-Berkeley, and a doctorate in electrical engineering from Stanford.
+
+                Subject: He ;   Object: University of California-Berkeley
+                Adding to set of extracted relations...
+
+                Subject: He ;   Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:While pursuing a PhD at Stanford, Page and fellow student Sergey Brin developed a "PageRank" algorithm that calculated the relevance of a web page to the user's query based in part on the number of other pages that linked to it.
+
+                Subject: Page ; Object: Stanford
+                Adding to set of extracted relations...
+
+                Subject: Sergey Brin ;  Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:Page holds a bachelor's degree in engineering from the University of Michigan-Ann Arbor and a master's degree in computer science from Stanford.
+
+                Subject: Page ; Object: University of Michigan-Ann Arbor
+                Adding to set of extracted relations...
+
+                Subject: Page ; Object: Stanford
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 62 sentences
+
+                === Extracted Relation ===
+                Sentence:Ride was a professor of physics at the University of California-San Diego and director of the California Space Institute.
+
+                Subject: Ride ; Object: University of California-San Diego
+                Adding to set of extracted relations...
+                ==========
+Processed 55 / 62 sentences
+Processed 60 / 62 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Schools_attended relations in the sentence.
+    Sentence : In the News Professor Mark Jacobson honored in Worth Magazine's Worthy 100 In the News Resources for Current Students, Faculty & Staff (Intranet) For Students For Staff For Faculty Stanford ENGINEERING Web Login Address CEE Y2E2, 473 Via Ortega, Room 311 Stanford, CA 94305 United States Program Contacts Campus Map Fa
+    Definition: A Schools_attended relation indicates that a 'Person' has attended 'Organization' for education.
+    Return format: represent relation in the format of ['Person',Schools_attended,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Jeff Bezos, Schools_Attended, Princeton University; Sergey Brin, Schools_attended, Stanford University School of Engineering; Sergey Brin, Schools_attended, Stanford University
+    
+
+Extracted annotations for  39  out of total  62  sentences from spaCy, 13 from Gemini.
+Relations extracted from this website: 15 (Overall: 46)
+
+
+================================================================================
+ALL RELATIONS for per:schools_attended (46)
+================================================================================
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: Stanford University School of Engineering
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: Stanford University
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: Stanford
+Confidence: 1.0000000   | Subject: Lawrence Page        | Object: Stanford University School of Engineering
+Confidence: 1.0000000   | Subject: Craig Silverstein    | Object: NULL
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: NULL
+Confidence: 1.0000000   | Subject: Rajeev Motwani       | Object: NULL
+Confidence: 1.0000000   | Subject: Jeff Ullman  | Object: NULL
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: University of Maryland
+Confidence: 1.0000000   | Subject: Mikhail Brin         | Object: Moscow State University
+Confidence: 1.0000000   | Subject: Eugenia Brin         | Object: Moscow State University
+Confidence: 1.0000000   | Subject: Brin         | Object: Paint Branch Montessori School
+Confidence: 1.0000000   | Subject: Larry Page   | Object: Stanford
+Confidence: 1.0000000   | Subject: Larry Page   | Object: Stanford University
+Confidence: 1.0000000   | Subject: Julia Simon  | Object: Stanford University
+Confidence: 1.0000000   | Subject: Alexandria Boehm     | Object: Stanford
+Confidence: 1.0000000   | Subject: Marlene Wolfe        | Object: Emory University
+Confidence: 1.0000000   | Subject: Jill Wu      | Object: School of Engineering
+Confidence: 1.0000000   | Subject: Michael Brin         | Object: University of Maryland
+Confidence: 1.0000000   | Subject: Larry Page   | Object: Montessori school
+Confidence: 1.0000000   | Subject: He   | Object: Eleanor Roosevelt High School
+Confidence: 1.0000000   | Subject: He   | Object: University of Maryland
+Confidence: 1.0000000   | Subject: He   | Object: Stanford University
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: Academy
+Confidence: 1.0000000   | Subject: Larry Page   | Object: Academy
+Confidence: 1.0000000   | Subject: Anne Hatch McAllister        | Object: Stanford Daily
+Confidence: 1.0000000   | Subject: William Hewlett      | Object: Stanford
+Confidence: 1.0000000   | Subject: David Packard        | Object: Stanford
+Confidence: 1.0000000   | Subject: Don Lowe     | Object: Stanford Doerr School of Sustainability
+Confidence: 1.0000000   | Subject: Drew Endy    | Object: Stanford University
+Confidence: 1.0000000   | Subject: Ronald N. Bracewell  | Object: Lewis M. Terman Professor of Electrical Engineering
+Confidence: 1.0000000   | Subject: Irmgard Flügge-Lotz  | Object: Stanford University
+Confidence: 1.0000000   | Subject: Ride         | Object: Stanford University
+Confidence: 1.0000000   | Subject: Jim Plummer  | Object: Stanford School of Engineering
+Confidence: 1.0000000   | Subject: Jerry Yang   | Object: Stanford University
+Confidence: 1.0000000   | Subject: David Filo   | Object: Stanford University
+Confidence: 1.0000000   | Subject: Fred Terman  | Object: Stanford University
+Confidence: 1.0000000   | Subject: He   | Object: City College of New York
+Confidence: 1.0000000   | Subject: He   | Object: Columbia University
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: University of Maryland at College Park
+Confidence: 1.0000000   | Subject: Ginzton      | Object: Stanford University
+Confidence: 1.0000000   | Subject: He   | Object: University of California-Berkeley
+Confidence: 1.0000000   | Subject: He   | Object: Stanford
+Confidence: 1.0000000   | Subject: Page         | Object: Stanford
+Confidence: 1.0000000   | Subject: Page         | Object: University of Michigan-Ann Arbor
+Confidence: 1.0000000   | Subject: Ride         | Object: University of California-San Diego
+Total # of iterations =  1

@@ -1,0 +1,408 @@
+Mode: -spanbert
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: XXX
+Relation: per:schools_attended
+Threshold: 0.7
+Seed Query: sergey brin stanford
+Number of Tuples: 10
+Loading pre-trained spanBERT from ./SpanBERT/pretrained_spanbert
+=========== Iteration: 0 - Query: sergey brin stanford =============
+URL (1/10) :
+https://engineering.stanford.edu/about/heroes/2014-heroes/sergey-brin
+Webpage length (num characters): 6734
+Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 38 sentences
+Processed 10 / 38 sentences
+Processed 15 / 38 sentences
+Processed 20 / 38 sentences
+
+		=== Extracted Relation ===
+	Sentence: Secondary Navigation Dean Dean’s Office Diversity, Equity and Inclusion Visit History Persis S. Drell Heroes 2019 Heroes 2018 Heroes 2016 Heroes 2015 Heroes 2014 Heroes Kenneth Arrow Sergey Brin Irmgard Flugge-Lotz Edward Ginzton Larry Page Sally Ride 2013 Heroes 2012 Heroes 2011 Heroes SoE-Future Main content start Sergey Brin — Google co-founder Sergey Brin co-founded web-search giant Google Inc. in 1998 with fellow Stanford student Larry Page.
+		Relation: per:schools_attended (Confidence: 0.688)
+Subject: Sergey Brin	Object: Stanford
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Secondary Navigation Dean Dean’s Office Diversity, Equity and Inclusion Visit History Persis S. Drell Heroes 2019 Heroes 2018 Heroes 2016 Heroes 2015 Heroes 2014 Heroes Kenneth Arrow Sergey Brin Irmgard Flugge-Lotz Edward Ginzton Larry Page Sally Ride 2013 Heroes 2012 Heroes 2011 Heroes SoE-Future Main content start Sergey Brin — Google co-founder Sergey Brin co-founded web-search giant Google Inc. in 1998 with fellow Stanford student Larry Page.
+		Relation: per:schools_attended (Confidence: 0.827)
+Subject: Larry Page	Object: Google
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Secondary Navigation Dean Dean’s Office Diversity, Equity and Inclusion Visit History Persis S. Drell Heroes 2019 Heroes 2018 Heroes 2016 Heroes 2015 Heroes 2014 Heroes Kenneth Arrow Sergey Brin Irmgard Flugge-Lotz Edward Ginzton Larry Page Sally Ride 2013 Heroes 2012 Heroes 2011 Heroes SoE-Future Main content start Sergey Brin — Google co-founder Sergey Brin co-founded web-search giant Google Inc. in 1998 with fellow Stanford student Larry Page.
+		Relation: per:schools_attended (Confidence: 0.818)
+Subject: Sergey Brin	Object: Stanford
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Secondary Navigation Dean Dean’s Office Diversity, Equity and Inclusion Visit History Persis S. Drell Heroes 2019 Heroes 2018 Heroes 2016 Heroes 2015 Heroes 2014 Heroes Kenneth Arrow Sergey Brin Irmgard Flugge-Lotz Edward Ginzton Larry Page Sally Ride 2013 Heroes 2012 Heroes 2011 Heroes SoE-Future Main content start Sergey Brin — Google co-founder Sergey Brin co-founded web-search giant Google Inc. in 1998 with fellow Stanford student Larry Page.
+		Relation: per:schools_attended (Confidence: 0.951)
+Subject: Larry Page	Object: Stanford
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Brin earned his master’s degree in computer science at Stanford, where he and Page developed the “PageRank” algorithm, which calculated the relevance of a web page to the user’s query based in part on the number of other pages that linked to it.
+		Relation: per:schools_attended (Confidence: 0.776)
+Subject: Brin	Object: Stanford
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Brin earned his master’s degree in computer science at Stanford, where he and Page developed the “PageRank” algorithm, which calculated the relevance of a web page to the user’s query based in part on the number of other pages that linked to it.
+		Relation: per:schools_attended (Confidence: 0.930)
+Subject: Page	Object: Stanford
+		Adding to set of extracted relations
+		==========
+Processed 25 / 38 sentences
+Processed 30 / 38 sentences
+Processed 35 / 38 sentences
+Extracted annotations for  0  out of total  38  sentences
+Relations extracted from this website: 5 (Overall: 6)
+URL (2/10) :
+http://infolab.stanford.edu/~sergey/
+Webpage length (num characters): 4577
+Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+	Sentence: Sergey Brin Sergey Brin's Home Page Ph.D. student in Computer Science at Stanford - sergey@cs.stanford.edu Research Currently I am at Google.
+		Relation: per:schools_attended (Confidence: 0.875)
+Subject: Sergey Brin Sergey Brin's	Object: Stanford - sergey@cs.stanford.edu Research
+		Adding to set of extracted relations
+		==========
+Processed 5 / 58 sentences
+Processed 10 / 58 sentences
+Processed 15 / 58 sentences
+Processed 20 / 58 sentences
+Processed 25 / 58 sentences
+Processed 30 / 58 sentences
+Processed 35 / 58 sentences
+Processed 40 / 58 sentences
+
+		=== Extracted Relation ===
+	Sentence: Together with James Davis (another Ph.D. student here), we developed COPS , the COpyright Protection System.
+		Relation: per:schools_attended (Confidence: 0.535)
+Subject: James Davis	Object: the COpyright Protection System
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 45 / 58 sentences
+Processed 50 / 58 sentences
+Processed 55 / 58 sentences
+Extracted annotations for  0  out of total  58  sentences
+Relations extracted from this website: 1 (Overall: 2)
+URL (3/10) :
+https://en.wikipedia.org/wiki/Sergey_Brin
+Webpage length (num characters): 39157
+Trimming webpage content from 39157 to 10000 characters
+Extracted 73 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 73 sentences
+Processed 10 / 73 sentences
+Processed 15 / 73 sentences
+Processed 20 / 73 sentences
+Processed 25 / 73 sentences
+
+		=== Extracted Relation ===
+	Sentence: Mikhail and Eugenia Brin, both graduates of Moscow State University (MSU).[7]
+		Relation: per:schools_attended (Confidence: 0.993)
+Subject: Mikhail	Object: Moscow State University
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Mikhail and Eugenia Brin, both graduates of Moscow State University (MSU).[7]
+		Relation: per:schools_attended (Confidence: 0.991)
+Subject: Eugenia Brin	Object: Moscow State University
+		Adding to set of extracted relations
+		==========
+Processed 30 / 73 sentences
+Processed 35 / 73 sentences
+Processed 40 / 73 sentences
+
+		=== Extracted Relation ===
+	Sentence: Search engine development[edit] Left to right, Eric Schmidt, Sergey Brin and Larry Page, 2008 During an orientation for new students at Stanford, he met Larry Page.
+		Relation: per:schools_attended (Confidence: 0.490)
+Subject: Eric Schmidt	Object: Stanford
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 45 / 73 sentences
+Processed 50 / 73 sentences
+Processed 55 / 73 sentences
+Processed 60 / 73 sentences
+Processed 65 / 73 sentences
+Processed 70 / 73 sentences
+Extracted annotations for  0  out of total  73  sentences
+Relations extracted from this website: 2 (Overall: 3)
+URL (4/10) :
+https://www.quora.com/What-was-it-like-to-be-at-Stanford-with-Sergey-Brin-and-Larry-Page
+Webpage length (num characters): 193
+Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  4  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (5/10) :
+https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf
+Webpage length (num characters): 1271060
+Trimming webpage content from 1271060 to 10000 characters
+Extracted 229 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 229 sentences
+Processed 10 / 229 sentences
+Processed 15 / 229 sentences
+Processed 20 / 229 sentences
+Processed 25 / 229 sentences
+Processed 30 / 229 sentences
+Processed 35 / 229 sentences
+Processed 40 / 229 sentences
+Processed 45 / 229 sentences
+Processed 50 / 229 sentences
+Processed 55 / 229 sentences
+Processed 60 / 229 sentences
+Processed 65 / 229 sentences
+Processed 70 / 229 sentences
+Processed 75 / 229 sentences
+Processed 80 / 229 sentences
+Processed 85 / 229 sentences
+Processed 90 / 229 sentences
+Processed 95 / 229 sentences
+Processed 100 / 229 sentences
+Processed 105 / 229 sentences
+Processed 110 / 229 sentences
+Processed 115 / 229 sentences
+Processed 120 / 229 sentences
+Processed 125 / 229 sentences
+Processed 130 / 229 sentences
+Processed 135 / 229 sentences
+Processed 140 / 229 sentences
+Processed 145 / 229 sentences
+Processed 150 / 229 sentences
+Processed 155 / 229 sentences
+Processed 160 / 229 sentences
+Processed 165 / 229 sentences
+Processed 170 / 229 sentences
+Processed 175 / 229 sentences
+Processed 180 / 229 sentences
+Processed 185 / 229 sentences
+Processed 190 / 229 sentences
+Processed 195 / 229 sentences
+Processed 200 / 229 sentences
+Processed 205 / 229 sentences
+Processed 210 / 229 sentences
+Processed 215 / 229 sentences
+Processed 220 / 229 sentences
+Processed 225 / 229 sentences
+Extracted annotations for  0  out of total  229  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (6/10) :
+https://news.stanford.edu/2022/08/05/wastewaterscan-will-monitor-wastewater-covid-19-monkeypox-diseases/
+Webpage length (num characters): 7482
+Extracted 38 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 38 sentences
+Processed 10 / 38 sentences
+
+		=== Extracted Relation ===
+	Sentence: We’ve seen how valuable this can be as individual testing practices for SARS-CoV-2 have changed,” said Alexandria Boehm, professor of civil and environmental engineering at Stanford.
+		Relation: per:schools_attended (Confidence: 0.734)
+Subject: Alexandria Boehm	Object: Stanford
+		Adding to set of extracted relations
+		==========
+Processed 15 / 38 sentences
+Processed 20 / 38 sentences
+Processed 25 / 38 sentences
+Processed 30 / 38 sentences
+Processed 35 / 38 sentences
+Extracted annotations for  0  out of total  38  sentences
+Relations extracted from this website: 1 (Overall: 1)
+URL (7/10) :
+https://about.google/intl/ALL_us/our-story/
+Webpage length (num characters): 3994
+Extracted 27 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 27 sentences
+
+		=== Extracted Relation ===
+	Sentence: Larry Page was considering Stanford for grad school and Sergey Brin, a student there, was assigned to show him around.
+		Relation: per:schools_attended (Confidence: 0.537)
+Subject: Larry Page	Object: Stanford
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 10 / 27 sentences
+Processed 15 / 27 sentences
+Processed 20 / 27 sentences
+Processed 25 / 27 sentences
+Extracted annotations for  0  out of total  27  sentences
+Relations extracted from this website: 0 (Overall: 1)
+URL (8/10) :
+https://news.stanford.edu/report/2022/10/26/campus-curiosities/
+Webpage length (num characters): 16168
+Trimming webpage content from 16168 to 10000 characters
+Extracted 78 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 78 sentences
+Processed 10 / 78 sentences
+Processed 15 / 78 sentences
+Processed 20 / 78 sentences
+Processed 25 / 78 sentences
+
+		=== Extracted Relation ===
+	Sentence: From the Huang Engineering Center Innovations Tour: As electrical engineering undergraduates and graduate students at Stanford in the 1930s, William Hewlett and David Packard encountered three influences that would guide the rest of their lives: the excitement of technology, an entrepreneurial spirit in the emerging field of electronics, and each other’s friendship.
+		Relation: per:schools_attended (Confidence: 0.733)
+Subject: David Packard	Object: the Huang Engineering Center Innovations Tour
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: From the Huang Engineering Center Innovations Tour: As electrical engineering undergraduates and graduate students at Stanford in the 1930s, William Hewlett and David Packard encountered three influences that would guide the rest of their lives: the excitement of technology, an entrepreneurial spirit in the emerging field of electronics, and each other’s friendship.
+		Relation: per:schools_attended (Confidence: 0.666)
+Subject: William Hewlett	Object: Stanford
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: From the Huang Engineering Center Innovations Tour: As electrical engineering undergraduates and graduate students at Stanford in the 1930s, William Hewlett and David Packard encountered three influences that would guide the rest of their lives: the excitement of technology, an entrepreneurial spirit in the emerging field of electronics, and each other’s friendship.
+		Relation: per:schools_attended (Confidence: 0.967)
+Subject: David Packard	Object: Stanford
+		Adding to set of extracted relations
+		==========
+Processed 30 / 78 sentences
+Processed 35 / 78 sentences
+Processed 40 / 78 sentences
+Processed 45 / 78 sentences
+Processed 50 / 78 sentences
+Processed 55 / 78 sentences
+Processed 60 / 78 sentences
+Processed 65 / 78 sentences
+Processed 70 / 78 sentences
+Processed 75 / 78 sentences
+Extracted annotations for  0  out of total  78  sentences
+Relations extracted from this website: 2 (Overall: 3)
+URL (9/10) :
+https://cee.stanford.edu/news/stanford-school-engineering-names-new-engineering-heroes
+Webpage length (num characters): 10593
+Trimming webpage content from 10593 to 10000 characters
+Extracted 62 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 62 sentences
+Processed 10 / 62 sentences
+
+		=== Extracted Relation ===
+	Sentence: Irmgard Flügge-Lotz, Stanford’s first female professor of engineering, was internationally renowned for her many important contributions to aerodynamics and to automatic control theory.
+		Relation: per:schools_attended (Confidence: 0.515)
+Subject: Irmgard Flügge-Lotz	Object: Stanford
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 15 / 62 sentences
+Processed 20 / 62 sentences
+Processed 25 / 62 sentences
+Processed 30 / 62 sentences
+Processed 35 / 62 sentences
+Processed 40 / 62 sentences
+
+		=== Extracted Relation ===
+	Sentence: While pursuing a PhD at Stanford, Page and fellow student Sergey Brin developed a "PageRank" algorithm that calculated the relevance of a web page to the user's query based in part on the number of other pages that linked to it.
+		Relation: per:schools_attended (Confidence: 0.974)
+Subject: Sergey Brin	Object: Stanford
+		Adding to set of extracted relations
+		==========
+Processed 45 / 62 sentences
+Processed 50 / 62 sentences
+Processed 55 / 62 sentences
+Processed 60 / 62 sentences
+Extracted annotations for  0  out of total  62  sentences
+Relations extracted from this website: 1 (Overall: 2)
+URL (10/10) :
+https://achievement.org/achiever/sergey-brin/
+Webpage length (num characters): 47793
+Trimming webpage content from 47793 to 10000 characters
+Extracted 79 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 79 sentences
+Processed 10 / 79 sentences
+
+		=== Extracted Relation ===
+	Sentence: Like Larry Page, he attended a Montessori school as a small child.
+		Relation: per:schools_attended (Confidence: 0.984)
+Subject: Larry Page	Object: Montessori
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: He graduated from Eleanor Roosevelt High School in 1990 and entered the University of Maryland, College Park.
+		Relation: per:schools_attended (Confidence: 0.993)
+Subject: Eleanor Roosevelt High School	Object: the University of Maryland
+		Adding to set of extracted relations
+		==========
+Processed 15 / 79 sentences
+Processed 20 / 79 sentences
+
+		=== Extracted Relation ===
+	Sentence: At Stanford, Sergey Brin met fellow computer science graduate student Larry Page, who recruited him to join his research project.
+		Relation: per:schools_attended (Confidence: 0.822)
+Subject: Sergey Brin	Object: Stanford
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+
+		=== Extracted Relation ===
+	Sentence: At Stanford, Sergey Brin met fellow computer science graduate student Larry Page, who recruited him to join his research project.
+		Relation: per:schools_attended (Confidence: 0.964)
+Subject: Larry Page	Object: Stanford
+		Adding to set of extracted relations
+		==========
+Processed 25 / 79 sentences
+
+		=== Extracted Relation ===
+	Sentence: At the 2000 International Achievement Summit in London, Sir David Frost interviews 27-year-old Academy student delegate Sergey Brin and Douglas G. Carlston, Founder of Brøderbund Software, about the future of technology.
+		Relation: per:schools_attended (Confidence: 0.608)
+Subject: David Frost	Object: Academy
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 30 / 79 sentences
+Processed 35 / 79 sentences
+Processed 40 / 79 sentences
+
+		=== Extracted Relation ===
+	Sentence: Sergey Brin and Larry Page, former Academy student delegates, return as Academy guests of honor.
+		Relation: per:schools_attended (Confidence: 0.889)
+Subject: Sergey Brin	Object: Academy
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Sergey Brin and Larry Page, former Academy student delegates, return as Academy guests of honor.
+		Relation: per:schools_attended (Confidence: 0.900)
+Subject: Larry Page	Object: Academy
+		Adding to set of extracted relations
+		==========
+Processed 45 / 79 sentences
+
+		=== Extracted Relation ===
+	Sentence: That same year, Larry Page and Sergey Brin, still enrolled as Ph.D. candidates at Stanford, attended the Academy of Achievement’s International Achievement Summit in London, England as graduate student delegates.
+		Relation: per:schools_attended (Confidence: 0.959)
+Subject: Larry Page	Object: the Academy of Achievement’s International Achievement Summit
+		Adding to set of extracted relations
+		==========
+Processed 50 / 79 sentences
+Processed 55 / 79 sentences
+Processed 60 / 79 sentences
+Processed 65 / 79 sentences
+Processed 70 / 79 sentences
+Processed 75 / 79 sentences
+Extracted annotations for  0  out of total  79  sentences
+Relations extracted from this website: 6 (Overall: 8)
+================================================================================
+ALL RELATIONS for per:schools_attended (16)
+================================================================================
+Confidence: 0.9927896 	| Subject: Mikhail 	| Object: Moscow State University
+Confidence: 0.9925303 	| Subject: Eleanor Roosevelt High School 	| Object: the University of Maryland
+Confidence: 0.9908487 	| Subject: Eugenia Brin 	| Object: Moscow State University
+Confidence: 0.9841387 	| Subject: Larry Page 	| Object: Montessori
+Confidence: 0.9735057 	| Subject: Sergey Brin 	| Object: Stanford
+Confidence: 0.9672189 	| Subject: David Packard 	| Object: Stanford
+Confidence: 0.9641746 	| Subject: Larry Page 	| Object: Stanford
+Confidence: 0.9585600 	| Subject: Larry Page 	| Object: the Academy of Achievement’s International Achievement Summit
+Confidence: 0.9301689 	| Subject: Page 	| Object: Stanford
+Confidence: 0.8999056 	| Subject: Larry Page 	| Object: Academy
+Confidence: 0.8890389 	| Subject: Sergey Brin 	| Object: Academy
+Confidence: 0.8753062 	| Subject: Sergey Brin Sergey Brin's 	| Object: Stanford - sergey@cs.stanford.edu Research
+Confidence: 0.8269374 	| Subject: Larry Page 	| Object: Google
+Confidence: 0.7757272 	| Subject: Brin 	| Object: Stanford
+Confidence: 0.7337597 	| Subject: Alexandria Boehm 	| Object: Stanford
+Confidence: 0.7330302 	| Subject: David Packard 	| Object: the Huang Engineering Center Innovations Tour
+Total # of iterations =  1

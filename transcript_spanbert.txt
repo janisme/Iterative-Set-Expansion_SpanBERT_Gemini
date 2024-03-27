@@ -1,0 +1,512 @@
+python3 project2.py -spanbert "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "xxx" 2 0.7 "bill gates microsoft" 10
+Parameters:
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: xxx
+Mode: -spanbert
+Relation: per:employee_of
+Seed Query: bill gates microsoft
+Number of Tuples: 10
+Threshold: 0.7
+Loading pre-trained spanBERT from ./SpanBERT/pretrained_spanbert
+=========== Iteration: 0 - Query: bill gates microsoft =============
+URL (1/10) : https://en.wikipedia.org/wiki/Bill_Gates
+Webpage length (num characters): 142951
+Trimming webpage content from 142951 to 10000 characters
+Extracted 50 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 50 sentences
+Processed 10 / 50 sentences
+
+                === Extracted Relation ===
+        Sentence: Bill GatesGates in 2023BornWilliam Henry Gates III (1955-10-28) October 28, 1955 (age 68)Seattle, Washington, U.S.EducationHarvard University (dropped out)OccupationsBusinessmaninvestorphilanthropistwriterYears active1972–presentKnown for Pioneer of the personal computer revolution with Paul Allen Co-founding of Microsoft and Bill & Melinda Gates
+                Relation: per:employee_of (Confidence: 0.988)
+Subject: 68)Seattle     Object: Pioneer
+                Adding to set of extracted relations
+                ==========
+Processed 15 / 50 sentences
+Processed 20 / 50 sentences
+
+                === Extracted Relation ===
+        Sentence: In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+                Relation: per:employee_of (Confidence: 0.988)
+Subject: Allen  Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 25 / 50 sentences
+
+                === Extracted Relation ===
+        Sentence: He stepped down as chairman of the Microsoft board in February 2014 and assumed the role of technology adviser to support newly appointed CEO Satya Nadella.[7]
+                Relation: per:employee_of (Confidence: 0.997)
+Subject: Satya Nadella.[7       Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic efforts on climate change, global health and development, and education.[8] Since 1987, Gates has been included in the Forbes list of the world's billionaires.
+                Relation: per:employee_of (Confidence: 0.762)
+Subject: Berkshire Hathaway     Object: Gates
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: In March 2020, Gates left his board positions at Microsoft and Berkshire Hathaway to focus on his philanthropic efforts on climate change, global health and development, and education.[8] Since 1987, Gates has been included in the Forbes list of the world's billionaires.
+                Relation: per:employee_of (Confidence: 0.738)
+Subject: Berkshire Hathaway     Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 30 / 50 sentences
+
+                === Extracted Relation ===
+        Sentence: In October 2017, he was surpassed by Amazon founder Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[9]
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: Jeff Bezos     Object: Amazon
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: In October 2017, he was surpassed by Amazon founder Jeff Bezos, who had an estimated net worth of US$90.6 billion compared to Gates's net worth of US$89.9 billion at the time.[9]
+                Relation: per:employee_of (Confidence: 0.932)
+Subject: Jeff Bezos     Object: Gates
+                Adding to set of extracted relations
+                ==========
+Processed 35 / 50 sentences
+Processed 40 / 50 sentences
+Processed 45 / 50 sentences
+Processed 50 / 50 sentences
+Extracted annotations for  0  out of total  50  sentences
+Relations extracted from this website: 7 (Overall: 7)
+URL (2/10) : https://twitter.com/BillGates
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 7 sentences
+Extracted annotations for  0  out of total  7  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (3/10) : https://www.instagram.com/thisisbillgates/
+Webpage length (num characters): 9
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (4/10) : https://news.microsoft.com/tag/bill-gates/
+Webpage length (num characters): 5159
+Extracted 24 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 24 sentences
+Processed 10 / 24 sentences
+
+                === Extracted Relation ===
+        Sentence: February 14, 2014 Computing royalty – including Bill Gates – pays tribute to Microsoft researcher Butler Lampson In Cambridge, Mass.
+                Relation: per:employee_of (Confidence: 0.992)
+Subject: Butler Lampson Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 15 / 24 sentences
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.785)
+Subject: Bill Gates     Object: Xbox
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.992)
+Subject: Bill Gates’    Object: Microsoft Board
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.994)
+Subject: Bill Gates’    Object: Board of Directors
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.978)
+Subject: Satya Nadella  Object: Microsoft Board
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.994)
+Subject: Bill Gates     Object: Microsoft Board
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.985)
+Subject: John Thompson  Object: Microsoft Board
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.964)
+Subject: Satya Nadella  Object: Board of Directors
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.991)
+Subject: Bill Gates     Object: Board of Directors
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: February 4, 2014 From Windows to the Xbox: Bill Gates’ ‘pioneering’ impact February 4, 2014 Microsoft Board names Satya Nadella as CEO Bill Gates steps up to new role as Technology Advisor; John Thompson assumes role as Chairman of Board of Directors.
+                Relation: per:employee_of (Confidence: 0.997)
+Subject: John Thompson  Object: Board of Directors
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: July 15, 2013 Bill Gates: 2013 Microsoft Research Faculty Summit Microsoft Chairman Bill Gates shares his thoughts on computing’s impact on society, and fields questions from the audience at the 2013 Microsoft Research Faculty Summit.
+                Relation: per:employee_of (Confidence: 0.976)
+Subject: Bill Gates     Object: Microsoft Research Faculty Summit Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Rick Rashid, chief research officer of Microsoft, moderates the discussion.
+                Relation: per:employee_of (Confidence: 0.997)
+Subject: Rick Rashid    Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 20 / 24 sentences
+
+                === Extracted Relation ===
+        Sentence: Microsoft Employees Raise $1 Billion for Communities Around the World Microsoft commemorates 30th Employee Giving Campaign with CEO Steve Ballmer and Chairman and Founder Bill Gates.
+                Relation: per:employee_of (Confidence: 0.818)
+Subject: Steve Ballmer  Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Microsoft Employees Raise $1 Billion for Communities Around the World Microsoft commemorates 30th Employee Giving Campaign with CEO Steve Ballmer and Chairman and Founder Bill Gates.
+                Relation: per:employee_of (Confidence: 0.993)
+Subject: Bill Gates     Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Extracted annotations for  0  out of total  24  sentences
+Relations extracted from this website: 14 (Overall: 14)
+URL (5/10) : https://www.britannica.com/biography/Bill-Gates
+Webpage length (num characters): 12472
+Trimming webpage content from 12472 to 10000 characters
+Extracted 62 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+                === Extracted Relation ===
+        Sentence: Bill Gates | Biography, Microsoft, & Facts | Britannica Search Britannica Click here to search Search Britannica Click here to search Login Subscribe Now Subscribe Home Games & Quizzes History & Society Science & Tech Biographies Animals & Nature Geography & Travel Arts & Culture Money Videos On This Day One Good Fact Dictionary New Articles History & Society Lifestyles & Social Issues Philosophy & Religion Politics, Law & Government World History Science & Tech Health & Medicine Science Technology Biographies Browse Biographies Animals & Nature Birds, Reptiles & Other Vertebrates Bugs, Mollusks & Other Invertebrates Environment Fossils & Geologic Time Mammals Plants Geography & Travel Geography & Travel Arts & Culture Entertainment & Pop Culture Literature Sports & Recreation Visual Arts Companions Demystified Image Galleries Infographics Lists Podcasts Spotlights Summaries
+                Relation: per:employee_of (Confidence: 0.521)
+Subject: Bill Gates     Object: Search Britannica Click
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+Processed 5 / 62 sentences
+Processed 10 / 62 sentences
+Processed 15 / 62 sentences
+Processed 20 / 62 sentences
+Processed 25 / 62 sentences
+Processed 30 / 62 sentences
+Processed 35 / 62 sentences
+Processed 40 / 62 sentences
+
+                === Extracted Relation ===
+        Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Relation: per:employee_of (Confidence: 0.918)
+Subject: Bill Gates’s   Object: Microsoft Corporation
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Relation: per:employee_of (Confidence: 0.817)
+Subject: accomplishments?Bill Gates     Object: Microsoft Corporation
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: What are Bill Gates’s major accomplishments?Bill Gates founded the software company Microsoft Corporation with his friend Paul Allen.
+                Relation: per:employee_of (Confidence: 0.931)
+Subject: Paul Allen     Object: Microsoft Corporation
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Bill Gates (born October 28, 1955, Seattle, Washington, U.S.) is an American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company.
+                Relation: per:employee_of (Confidence: 0.979)
+Subject: Bill Gates     Object: Microsoft Corporation
+                Adding to set of extracted relations
+                ==========
+Processed 45 / 62 sentences
+Processed 50 / 62 sentences
+Processed 55 / 62 sentences
+Processed 60 / 62 sentences
+Extracted annotations for  0  out of total  62  sentences
+Relations extracted from this website: 4 (Overall: 5)
+URL (6/10) : https://www.linkedin.com/in/williamhgates
+Request to https://www.linkedin.com/in/williamhgates failed with status code 999
+URL (7/10) : https://www.hindustantimes.com/business/who-is-bill-gates-girlfriend-paula-hurd-with-whom-he-attended-anant-ambani-radhika-merchant-pre-wedding-celebrations-101709711700593.html
+Webpage length (num characters): 11304
+Trimming webpage content from 11304 to 10000 characters
+Extracted 61 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 61 sentences
+Processed 10 / 61 sentences
+
+                === Extracted Relation ===
+        Sentence: Microsoft co-founder Bill Gates and his girlfriend Paula Hurd attended the pre-wedding celebrations for Anant Ambani and Radhika Merchant together.
+                Relation: per:employee_of (Confidence: 0.889)
+Subject: Bill Gates     Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Microsoft co-founder Bill Gates and his girlfriend Paula Hurd pose for a picture during the pre-wedding celebrations of Anant Ambani and Radhika Merchant,(ANI)
+                Relation: per:employee_of (Confidence: 0.992)
+Subject: Bill Gates     Object: Microsoft
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+Processed 15 / 61 sentences
+Processed 20 / 61 sentences
+
+                === Extracted Relation ===
+        Sentence: He replies…Paula Hurd was married to Mark Hurd, CEO of software company Oracle, for 30 years, until his death in October 2019.
+                Relation: per:employee_of (Confidence: 0.993)
+Subject: Paula Hurd     Object: Oracle
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: He replies…Paula Hurd was married to Mark Hurd, CEO of software company Oracle, for 30 years, until his death in October 2019.
+                Relation: per:employee_of (Confidence: 0.988)
+Subject: Mark Hurd      Object: Oracle
+                Adding to set of extracted relations
+                ==========
+Processed 25 / 61 sentences
+Processed 30 / 61 sentences
+Processed 35 / 61 sentences
+Processed 40 / 61 sentences
+Processed 45 / 61 sentences
+Processed 50 / 61 sentences
+Processed 55 / 61 sentences
+Processed 60 / 61 sentences
+Extracted annotations for  0  out of total  61  sentences
+Relations extracted from this website: 2 (Overall: 4)
+URL (8/10) : https://www.forbes.com/profile/bill-gates/
+Webpage length (num characters): 6867
+Extracted 36 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 36 sentences
+Processed 10 / 36 sentences
+
+                === Extracted Relation ===
+        Sentence: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds stake in MicrosoftView ProfileHarvard UniversityAttended
+                Relation: per:employee_of (Confidence: 0.798)
+Subject: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds     Object: MicrosoftView ProfileHarvard
+                Adding to set of extracted relations
+                ==========
+Processed 15 / 36 sentences
+Processed 20 / 36 sentences
+Processed 25 / 36 sentences
+
+                === Extracted Relation ===
+        Sentence: Moses Preached The Power Of MathBill Gates, the Microsoft founder, is on a crusade to prioritize math.
+                Relation: per:employee_of (Confidence: 0.974)
+Subject: MathBill Gates Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: BySiladitya RayForbes StaffFeb 22, 2024America's Top 5 Most Philanthropic BillionairesFour newcomers join billionaires including Warren Buffett, Bill Gates and MacKenzie Scott in the ranks of the nation’s most generous donors.
+                Relation: per:employee_of (Confidence: 0.991)
+Subject: BySiladitya RayForbes  Object: 2024America
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: BySiladitya RayForbes StaffFeb 22, 2024America's Top 5 Most Philanthropic BillionairesFour newcomers join billionaires including Warren Buffett, Bill Gates and MacKenzie Scott in the ranks of the nation’s most generous donors.
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: Warren Buffett Object: StaffFeb
+                Adding to set of extracted relations
+                ==========
+Processed 30 / 36 sentences
+
+                === Extracted Relation ===
+        Sentence: ByAlan OhnsmanForbes StaffJan 25, 2024Bill & Melinda Gates Foundation Chief Calls On More Billionaires To Do More PhilanthropyExtreme poverty has increased.
+                Relation: per:employee_of (Confidence: 0.991)
+Subject: ByAlan OhnsmanForbes   Object: 2024Bill & Melinda Gates Foundation
+                Adding to set of extracted relations
+                ==========
+Processed 35 / 36 sentences
+Extracted annotations for  0  out of total  36  sentences
+Relations extracted from this website: 5 (Overall: 5)
+URL (9/10) : https://answers.microsoft.com/en-us/outlook_com/forum/all/microsoft-and-bill-gates-are-so-damn-screwed-up/cd76d0e2-ece4-45db-8886-00d557d593e2
+Webpage length (num characters): 11
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for  0  out of total  1  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (10/10) : https://fortune.com/2024/03/24/microsofts-steve-ballmer-was-once-bill-gates-assistant-now-the-sixth-richest-person-in-the-world-here-are-his-5-tips-for-success/
+Webpage length (num characters): 12189
+Trimming webpage content from 12189 to 10000 characters
+Extracted 59 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 59 sentences
+
+                === Extracted Relation ===
+        Sentence: Here are his 5 tips for successBYSunny NagpaulSteve Ballmer, former Microsoft CEO and current owner of the L.A. Clippers, at a fan rally in Staples Center.
+                Relation: per:employee_of (Confidence: 0.995)
+Subject: NagpaulSteve Ballmer   Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Here are his 5 tips for successBYSunny NagpaulSteve Ballmer, former Microsoft CEO and current owner of the L.A. Clippers, at a fan rally in Staples Center.
+                Relation: per:employee_of (Confidence: 0.995)
+Subject: NagpaulSteve Ballmer   Object: the L.A. Clippers
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Ted Soqui/CorbisFormer Microsoft CEO Steve Ballmer turns 68 years old today, and the sixth-richest person in the world has a lot to celebrate.
+                Relation: per:employee_of (Confidence: 0.994)
+Subject: Ted Soqui      Object: CorbisFormer Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Ted Soqui/CorbisFormer Microsoft CEO Steve Ballmer turns 68 years old today, and the sixth-richest person in the world has a lot to celebrate.
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: Steve Ballmer  Object: CorbisFormer Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: With a net worth of about $148 billion, according to the Bloomberg Billionaires Index, Ballmer is now just shy of overtaking his old boss, Microsoft founder Bill Gates, who sits at $154 billion.
+                Relation: per:employee_of (Confidence: 0.978)
+Subject: Ballmer        Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: With a net worth of about $148 billion, according to the Bloomberg Billionaires Index, Ballmer is now just shy of overtaking his old boss, Microsoft founder Bill Gates, who sits at $154 billion.
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: Bill Gates     Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 10 / 59 sentences
+Processed 15 / 59 sentences
+Processed 20 / 59 sentences
+Processed 25 / 59 sentences
+Processed 30 / 59 sentences
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.994)
+Subject: Ray Ozzie      Object: Ballmer
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.997)
+Subject: Steven Sinofksy        Object: Xbox
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.995)
+Subject: Steven Sinofksy        Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: J Allard       Object: Xbox
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.991)
+Subject: J Allard       Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.996)
+Subject: Ray Ozzie      Object: Xbox
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+        Sentence: Always look for talent While at Microsoft, Ballmer hired some of the biggest names in Silicon Valley, like Steven Sinofksy, who headed Windows; J Allard, who served as chief technology officer of Xbox; and Ray Ozzie, Microsoft’s chief software architect.
+                Relation: per:employee_of (Confidence: 0.989)
+Subject: Ray Ozzie      Object: Microsoft
+                Adding to set of extracted relations
+                ==========
+Processed 35 / 59 sentences
+Processed 40 / 59 sentences
+Processed 45 / 59 sentences
+
+                === Extracted Relation ===
+        Sentence: A decade after buying the Clippers, Ballmer is still thinking creatively about how to revamp the franchise.
+                Relation: per:employee_of (Confidence: 0.920)
+Subject: Ballmer        Object: Clippers
+                Adding to set of extracted relations
+                ==========
+Processed 50 / 59 sentences
+Processed 55 / 59 sentences
+Extracted annotations for  0  out of total  59  sentences
+Relations extracted from this website: 14 (Overall: 14)
+================================================================================
+ALL RELATIONS for per:employee_of (45)
+================================================================================
+Confidence: 0.9973029   | Subject: Satya Nadella.[7     | Object: Microsoft
+Confidence: 0.9968797   | Subject: Rick Rashid  | Object: Microsoft
+Confidence: 0.9968702   | Subject: Steven Sinofksy      | Object: Xbox
+Confidence: 0.9965679   | Subject: John Thompson        | Object: Board of Directors
+Confidence: 0.9963750   | Subject: Ray Ozzie    | Object: Xbox
+Confidence: 0.9963095   | Subject: Bill Gates   | Object: Microsoft
+Confidence: 0.9962030   | Subject: J Allard     | Object: Xbox
+Confidence: 0.9959485   | Subject: Steve Ballmer        | Object: CorbisFormer Microsoft
+Confidence: 0.9958012   | Subject: Jeff Bezos   | Object: Amazon
+Confidence: 0.9957006   | Subject: Warren Buffett       | Object: StaffFeb
+Confidence: 0.9954196   | Subject: NagpaulSteve Ballmer         | Object: Microsoft
+Confidence: 0.9951481   | Subject: NagpaulSteve Ballmer         | Object: the L.A. Clippers
+Confidence: 0.9951376   | Subject: Steven Sinofksy      | Object: Microsoft
+Confidence: 0.9943721   | Subject: Bill Gates   | Object: Microsoft Board
+Confidence: 0.9942071   | Subject: Bill Gates’  | Object: Board of Directors
+Confidence: 0.9939814   | Subject: Ted Soqui    | Object: CorbisFormer Microsoft
+Confidence: 0.9938933   | Subject: Ray Ozzie    | Object: Ballmer
+Confidence: 0.9930784   | Subject: Paula Hurd   | Object: Oracle
+Confidence: 0.9919180   | Subject: Bill Gates’  | Object: Microsoft Board
+Confidence: 0.9917743   | Subject: Butler Lampson       | Object: Microsoft
+Confidence: 0.9914556   | Subject: Bill Gates   | Object: Board of Directors
+Confidence: 0.9911095   | Subject: J Allard     | Object: Microsoft
+Confidence: 0.9908156   | Subject: ByAlan OhnsmanForbes         | Object: 2024Bill & Melinda Gates Foundation
+Confidence: 0.9905417   | Subject: BySiladitya RayForbes        | Object: 2024America
+Confidence: 0.9889691   | Subject: Ray Ozzie    | Object: Microsoft
+Confidence: 0.9882055   | Subject: 68)Seattle   | Object: Pioneer
+Confidence: 0.9881678   | Subject: Allen        | Object: Microsoft
+Confidence: 0.9876043   | Subject: Mark Hurd    | Object: Oracle
+Confidence: 0.9852347   | Subject: John Thompson        | Object: Microsoft Board
+Confidence: 0.9791732   | Subject: Bill Gates   | Object: Microsoft Corporation
+Confidence: 0.9780282   | Subject: Satya Nadella        | Object: Microsoft Board
+Confidence: 0.9778557   | Subject: Ballmer      | Object: Microsoft
+Confidence: 0.9760286   | Subject: Bill Gates   | Object: Microsoft Research Faculty Summit Microsoft
+Confidence: 0.9737638   | Subject: MathBill Gates       | Object: Microsoft
+Confidence: 0.9637334   | Subject: Satya Nadella        | Object: Board of Directors
+Confidence: 0.9317595   | Subject: Jeff Bezos   | Object: Gates
+Confidence: 0.9310000   | Subject: Paul Allen   | Object: Microsoft Corporation
+Confidence: 0.9198744   | Subject: Ballmer      | Object: Clippers
+Confidence: 0.9184544   | Subject: Bill Gates’s         | Object: Microsoft Corporation
+Confidence: 0.8183882   | Subject: Steve Ballmer        | Object: Microsoft
+Confidence: 0.8173488   | Subject: accomplishments?Bill Gates   | Object: Microsoft Corporation
+Confidence: 0.7981923   | Subject: Bill GatesRelated People & CompaniesWarren BuffettFriendView ProfileMicrosoftHolds   | Object: MicrosoftView ProfileHarvard
+Confidence: 0.7846538   | Subject: Bill Gates   | Object: Xbox
+Confidence: 0.7619390   | Subject: Berkshire Hathaway   | Object: Gates
+Confidence: 0.7382663   | Subject: Berkshire Hathaway   | Object: Microsoft
+Total # of iterations =  1

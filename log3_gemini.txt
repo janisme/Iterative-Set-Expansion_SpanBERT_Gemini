@@ -1,0 +1,593 @@
+python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs" 3 0.0 "megan rapinoe redding" 10
+-------
+Parameters:
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs
+Mode: -gemini
+Relation: per:cities_of_residence
+Seed Query: megan rapinoe redding
+Number of Tuples: 10
+=========== Iteration: 0 - Query: megan rapinoe redding =============
+URL (1/10) : https://www.redding.com/story/news/local/2019/07/08/after-world-cup-win-and-local-controversy-megan-rapinoe-still-praises-hometown-love/1679235001/
+Webpage length (num characters): 4780
+Extracted 31 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Megan Rapinoe praises 'hometown love' for Redding after World Cup winNews Sports Opinion Business Entertainment Advertise Obituaries eNewspaper Legals LOCALAfter World Cup win — and local controversy — Megan Rapinoe still praises 'hometown love' Alayna ShulmanReddingShasta County residents might be divided over homegrown soccer superstar Megan Rapinoe's outspoken political beliefs, but the 34-year-old still considers local support "the best kind of love" after leading her country to World Cup victory over the Netherlands Sunday.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 31 sentences
+Processed 10 / 31 sentences
+
+                === Extracted Relation ===
+                Sentence:And while Rapinoe doesn't reflect the political beliefs of most of her home county, about 300 of its residents still gathered in Redding Sunday for a watch party of Rapinoe's final game in this year's Women's World Cup.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 31 sentences
+
+                === Extracted Relation ===
+                Sentence:Despite those political clashes within a community that's largely conservative, Rapinoe touched on her loyalty to Redding in an ESPN interview last year.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 31 sentences
+
+                === Extracted Relation ===
+                Sentence:Megan Rapinoe's feud with Trump draws mixed reactions in her hometown Shasta CountyAlayna Shulman covers a little bit of everything for the Record Searchlight.
+
+                Subject: Megan Rapinoe ;        Object: Shasta County
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 31 sentences
+Processed 30 / 31 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : Megan Rapinoe's feud with Trump draws mixed reactions in her hometown Shasta CountyAlayna Shulman covers a little bit of everything for the Record Searchlight.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding
+    
+
+Extracted annotations for  9  out of total  31  sentences from spaCy, 4 from Gemini.
+Relations extracted from this website: 2 (Overall: 2)
+
+
+URL (2/10) : https://www.mercurynews.com/2019/07/06/womens-world-cup-hometown-star-out-of-step-in-californias-trump-country/
+Webpage length (num characters): 19918
+Trimming webpage content from 19918 to 10000 characters
+Extracted 60 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 60 sentences
+Processed 10 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:Other Sports | Women’s World Cup: Hometown star stirs mixed feelings in California’s Trump country Megan Rapinoe is captain of the U.S. World Cup team but not everyone in Redding likes what she has to sayShare this:Click to share on Facebook (Opens in new window)Click to share on Twitter (Opens in new window)Click to print (Opens in new window)Click to email a link to a friend (Opens in new window)Click to share on Reddit (Opens in new window)Megan Rapinoe of the USA looks on during the USA Training Session at Lyon Training Center on July 01, 2019 in Lyon, France.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:U.S. women's national team winger Megan Rapinoe grew up in Redding.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(Anda Chu/Bay Area News Group)Jim Rapinoe the father of U.S. women's national team winger Megan Rapinoe poses for a photograph on the soccer field named after his daughter at the California Soccer Park in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Jim Rapinoe ;  Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Jim Rapinoe ;  Object: California
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:(Karl Mondon/Staff)Jim Rapinoe the father of U.S. women's national team winger Megan Rapinoe poses for a photograph along 15 Rapinoe Way named for his daughter near the California Soccer Park in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Jim Rapinoe ;  Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Jim Rapinoe ;  Object: California
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:Africa's Lebohang Ramalepe (2), left, and United States forward Megan Rapinoe (15), right, go after a ball during the second half of their friendly game at Levi's Stadium in Santa Clara, Calf., on Sunday, May 12, 2019.
+
+                Subject: Lebohang Ramalepe ;    Object: Africa
+                Adding to set of extracted relations...
+
+                Subject: Megan Rapinoe ;        Object: United States
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(Randy Vazquez/Bay Area News Group)A street sign 15 Rapinoe Way named after U.S. women's national team winger Megan Rapinoe is photographed near the California Soccer Park in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:U.S. women's national team winger Megan Rapinoe grew up in Redding.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(Anda Chu/Bay Area News Group)United states forward Megan Rapinoe (15) runs after a ball during the second half of her teams friendly game versus South Africa at Levi's Stadium in Santa Clara, Calf., on Sunday, May 12, 2019.
+
+                Subject: Megan Rapinoe ;        Object: Santa Clara
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:U.S. women's national team winger Megan Rapino grew up in Redding.
+
+                Subject: Megan Rapino ; Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(Anda Chu/Bay Area News Group)A plaque honoring U.S. women's national team winger Megan Rapinoe hangs on the Shasta County Sports Hall of Fame wall at the field house of the Big League Dreams sports park in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Megan Rapinoe ;        Object: Shasta County
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:Rapinoe grew up in Redding.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Rapinoe grew up in Redding.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:(Anda Chu/Bay Area News Group)Joanne Rice, left, and Noralene, who did not wish to give her last, both of Redding, attend the Redding Freedom Festival Fourth of July celebration at the Redding Civic Auditorium in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Joanne Rice ;  Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Noralene ;     Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 60 sentences
+Processed 45 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:But Roberts’ comment underscores the uneasy relationship between the woman who has become the defiant face of U.S. soccer and the sun-baked land of Trump supporters she calls home.
+
+                Subject: Roberts ;      Object: U.S.
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:A plaque honoring U.S. women’s national team winger Megan Rapinoe hangs on the Shasta County Sports Hall of Fame wall at the field house of the Big League Dreams sports park in Redding, Calif., on Thursday, July 4, 2019.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Megan Rapinoe ;        Object: Shasta County
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:Rapinoe grew up in Redding.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 55 / 60 sentences
+Processed 60 / 60 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : But many in this oak-filled woodland stretch of the Sacramento River Valley seem to still be seething over Rapinoe’s kneeling during the pla
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  32  out of total  60  sentences from spaCy, 16 from Gemini.
+Relations extracted from this website: 9 (Overall: 11)
+
+
+URL (3/10) : https://www.sfgate.com/sports/article/how-megan-rapinoe-remembered-hometown-redding-18190858.php
+Request to https://www.sfgate.com/sports/article/how-megan-rapinoe-remembered-hometown-redding-18190858.php failed with status code 403
+URL (4/10) : https://www.thedailybeast.com/the-mystical-megachurch-ruling-over-world-cup-soccer-star-megan-rapinoes-hometown
+Webpage length (num characters): 16431
+Trimming webpage content from 16431 to 10000 characters
+Extracted 60 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:TripFashionBooksRoyalistTECHDisinformationSCOUTEDSalesReviewsNew Kids on the BlockBeautyFitnessHomeTechnologyTravelCOUPONSVistaprint CouponsUlta CouponsOffice Depot CouponsAdidas Promo CodesWalmart Promo CodesH&M CouponsSpanx Promo CodesStubHub Promo CodesProductsNewslettersPodcastsCrosswordsSubscriptionFOLLOW USGOT A TIP?SEARCHHOMEPAGESportsThe Mystical Megachurch Ruling Over Soccer Star Megan Rapinoe’s HometownFAULT LINESPhoto Illustration by Elizabeth Brockway/The Daily Beast/GettyBethel Church in Redding, California, is pro-Trump, believes in conversion therapy, and endorses “faith healing” and “dead raising”—a far cry from its most famous resident.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Megan Rapinoe ;        Object: California
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:5:41AM EDT In the hours after Megan Rapinoe and the U.S. women’s national soccer team’s World Cup victory, the footballer celebrated on Instagram with a photo of her hometown paper, the Record Searchlight.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Rapinoe grew up in the small logging town of Redding, California, and has maintained a close relationship with the community.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 60 sentences
+Processed 15 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:“The team being invited to the White House, Americas house, is an honor,” said Karen Margrave, a Redding realtor who first expressed her anger on Facebook.
+
+                Subject: Karen Margrave ;       Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 60 sentences
+Processed 25 / 60 sentences
+Processed 30 / 60 sentences
+Processed 35 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:In a statement provided by email, a Bethel representative wrote: “We celebrate the US Women’s Soccer Team’s historic fourth win of the World Cup and join in applauding our hometown’s talented athlete, Megan Rapinoe, and the success she has achieved on the world stage!”The roots of Bethel date back to 1954, when the church opened in Redding as an affiliate of a Pentecostal denomination called the Assemblies of God.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 60 sentences
+Processed 45 / 60 sentences
+Processed 50 / 60 sentences
+
+                === Extracted Relation ===
+                Sentence:Will Smith, a former Bethel member who lives in the Bay Area, said congregants often approach his friend’s son, who lives with cerebral palsy, offering to cure his illness—a gesture the child and his parents find distressing.
+
+                Subject: Will Smith ;   Object: Bay Area
+                Adding to set of extracted relations...
+                ==========
+Processed 55 / 60 sentences
+Processed 60 / 60 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : Will Smith, a former Bethel member who lives in the Bay Area, said congregants often approach his friend’s son, who lives with cerebral palsy, offering to cure his illness—a gesture the child and his parents find distressing.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  17  out of total  60  sentences from spaCy, 6 from Gemini.
+Relations extracted from this website: 3 (Overall: 14)
+
+
+URL (5/10) : https://twitter.com/mPinoe/status/515574901265412096
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 7 sentences
+
+Extracted annotations for  0  out of total  7  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 14)
+
+
+URL (6/10) : https://www.theplayerstribune.com/articles/megan-rapinoe-uswnt-soccer-tomboys
+Webpage length (num characters): 19897
+Trimming webpage content from 19897 to 10000 characters
+Extracted 215 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 215 sentences
+Processed 10 / 215 sentences
+Processed 15 / 215 sentences
+Processed 20 / 215 sentences
+Processed 25 / 215 sentences
+Processed 30 / 215 sentences
+Processed 35 / 215 sentences
+Processed 40 / 215 sentences
+Processed 45 / 215 sentences
+Processed 50 / 215 sentences
+Processed 55 / 215 sentences
+Processed 60 / 215 sentences
+Processed 65 / 215 sentences
+Processed 70 / 215 sentences
+Processed 75 / 215 sentences
+Processed 80 / 215 sentences
+Processed 85 / 215 sentences
+Processed 90 / 215 sentences
+Processed 95 / 215 sentences
+Processed 100 / 215 sentences
+Processed 105 / 215 sentences
+Processed 110 / 215 sentences
+Processed 115 / 215 sentences
+Processed 120 / 215 sentences
+Processed 125 / 215 sentences
+Processed 130 / 215 sentences
+Processed 135 / 215 sentences
+Processed 140 / 215 sentences
+Processed 145 / 215 sentences
+Processed 150 / 215 sentences
+Processed 155 / 215 sentences
+Processed 160 / 215 sentences
+Processed 165 / 215 sentences
+Processed 170 / 215 sentences
+Processed 175 / 215 sentences
+Processed 180 / 215 sentences
+Processed 185 / 215 sentences
+Processed 190 / 215 sentences
+Processed 195 / 215 sentences
+Processed 200 / 215 sentences
+Processed 205 / 215 sentences
+Processed 210 / 215 sentences
+Processed 215 / 215 sentences
+
+Extracted annotations for  12  out of total  215  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 14)
+
+
+URL (7/10) : https://en.wikipedia.org/wiki/Megan_Rapinoe
+Webpage length (num characters): 127618
+Trimming webpage content from 127618 to 10000 characters
+Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 58 sentences
+
+                === Extracted Relation ===
+                Sentence:Megan Rapinoe Rapinoe with the United States in 2019Personal informationFull name Megan Anna Rapinoe[1]Date of birth (1985-07-05) July 5, 1985 (age 38)[2]Place of birth Redding, California, U.S.Height 5 ft 6 in (1.68 m)[2]Position(s) Midfielder, wingerYouth career2002–2005
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 58 sentences
+Processed 15 / 58 sentences
+Processed 20 / 58 sentences
+
+                === Extracted Relation ===
+                Sentence:Early life Rapinoe grew up in Redding, California, with her parents, Jim and Denise, and five siblings, including her fraternal twin Rachael Rapinoe.
+
+                Subject: Rapinoe ;      Object: Redding
+                Adding to set of extracted relations...
+
+                Subject: Rapinoe ;      Object: California
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 58 sentences
+Processed 30 / 58 sentences
+Processed 35 / 58 sentences
+Processed 40 / 58 sentences
+
+                === Extracted Relation ===
+                Sentence:Rapinoe and her sister attended the University of Portland in Portland, Oregon.
+
+                Subject: Megan Rapinoe ;        Object: Portland
+                Adding to set of extracted relations...
+
+                Subject: Megan Rapinoe ;        Object: Oregon
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 58 sentences
+Processed 50 / 58 sentences
+Processed 55 / 58 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : The Rapinoe twins almost committed to Santa Clara University before choosing to play for the Portland Pilots on full scholarships.[26] Rapinoe played in the 2004 FIFA U-19 Women's World Championship in 2004, where the United States finished third.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  13  out of total  58  sentences from spaCy, 3 from Gemini.
+Relations extracted from this website: 4 (Overall: 18)
+
+
+URL (8/10) : https://www.espn.com/espnw/sports/article/24486574/us-soccer-star-megan-rapinoe-launches-fire-relief-fund-redding-hometown
+Webpage length (num characters): 10130
+Trimming webpage content from 10130 to 10000 characters
+Extracted 91 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:U.S. Soccer star Megan Rapinoe launches fire relief fund for Redding hometown - ESPN Skip to main content
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 91 sentences
+Processed 10 / 91 sentences
+
+                === Extracted Relation ===
+                Sentence:Hays began with ESPN in 1999.Follow on XEmailPrintMegan Rapinoe still starts most mornings in Redding, the northern California city near the Oregon border.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 91 sentences
+
+                === Extracted Relation ===
+                Sentence:Among the biggest stars in women's soccer, a mainstay of the U.S. women's national team who has drawn paychecks everywhere from Seattle to Lyon, France, Rapinoe still needs a regular fix of stories from places like Jack's Grill, the Redding restaurant where her mom works.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 91 sentences
+Processed 25 / 91 sentences
+Processed 30 / 91 sentences
+Processed 35 / 91 sentences
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+Processed 40 / 91 sentences
+Processed 45 / 91 sentences
+Processed 50 / 91 sentences
+Processed 55 / 91 sentences
+Processed 60 / 91 sentences
+Processed 65 / 91 sentences
+Processed 70 / 91 sentences
+Processed 75 / 91 sentences
+Processed 80 / 91 sentences
+Processed 85 / 91 sentences
+Processed 90 / 91 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : I'm not from California; I'm from Redding.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  15  out of total  91  sentences from spaCy, 3 from Gemini.
+Relations extracted from this website: 0 (Overall: 18)
+
+
+URL (9/10) : https://www.pinterest.com/pin/megan-rapinoe-in-front-of-her-childhood-home-in-redding-calif-twitter--182255116145865324/
+Webpage length (num characters): 401
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+google.api_core.exceptions.ResourceExhausted wait 10s retry again
+
+                === Extracted Relation ===
+                Sentence:Rapinoe in front of her childhood home in Redding, Calif.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:| Megan rapinoe, Megan, UswntExploreSave Megan RapinoeMegan Rapinoe in front of her childhood home in Redding, Calif.
+
+                Subject: Megan Rapinoe ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 7 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : | Megan rapinoe, Megan, UswntExploreSave Megan RapinoeMegan Rapinoe in front of her childhood home in Redding, Calif.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  2  out of total  7  sentences from spaCy, 2 from Gemini.
+Relations extracted from this website: 0 (Overall: 18)
+
+
+URL (10/10) : https://krcrtv.com/news/local/reddings-megan-rapinoe-inducted-into-californias-hall-of-fame
+Webpage length (num characters): 2799
+Extracted 18 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Redding's Megan Rapinoe inducted into California's Hall of FamePlease ensure Javascript is enabled for purposes ofwebsite accessibilityTue, 26 Mar 2024 09:03:37
+
+                Subject: Megan Rapinoe ;        Object: California
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 18 sentences
+
+                === Extracted Relation ===
+                Sentence:Election CommissionCommissioner ResignsRedding's Megan Rapinoe inducted into California's Hall of Fameby Mindy SchackWed, December 14th 2022 at 8:14 AMCourtesy:
+
+                Subject: Megan Rapinoe ;        Object: California
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Office of Governor Gavin NewsomREDDING, Calif. —
+
+                Subject: Gavin Newsom ; Object: Redding
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Redding soccer star Megan Rapinoe has been inducted into the California Hall of Fame.
+
+                Subject: Megan Rapinoe ;        Object: California
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:"Originally from Redding, Megan has been tremendous off the field as well.
+
+                Subject: Megan ;        Object: Redding
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 18 sentences
+Processed 15 / 18 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY' and analyze the relations between those entities to extract all explicit Live_in relations in the sentence.
+    Sentence : "Originally from Redding, Megan has been tremendous off the field as well.
+    Definition: A Live_in relation indicates that a 'Person' has lived in either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'.
+    Return format: represent relation in the format of ['Person',Live_in,either of 'LOCATION', 'CITY', 'STATE_OR_PROVINCE', or 'COUNTRY'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Both Subject and Object must be proper nouns, not pronouns.
+    * example: Mariah Carey, Live_In, New York City; Megan Rapinoe, Live_in, Redding; Megan Rapinoe, Live_in, Shasta County
+    
+
+Extracted annotations for  5  out of total  18  sentences from spaCy, 5 from Gemini.
+Relations extracted from this website: 2 (Overall: 20)
+
+
+================================================================================
+ALL RELATIONS for per:cities_of_residence (20)
+================================================================================
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: Redding
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: Shasta County
+Confidence: 1.0000000   | Subject: Jim Rapinoe  | Object: Redding
+Confidence: 1.0000000   | Subject: Jim Rapinoe  | Object: California
+Confidence: 1.0000000   | Subject: Lebohang Ramalepe    | Object: Africa
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: United States
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: Santa Clara
+Confidence: 1.0000000   | Subject: Megan Rapino         | Object: Redding
+Confidence: 1.0000000   | Subject: Joanne Rice  | Object: Redding
+Confidence: 1.0000000   | Subject: Noralene     | Object: Redding
+Confidence: 1.0000000   | Subject: Roberts      | Object: U.S.
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: California
+Confidence: 1.0000000   | Subject: Karen Margrave       | Object: Redding
+Confidence: 1.0000000   | Subject: Will Smith   | Object: Bay Area
+Confidence: 1.0000000   | Subject: Rapinoe      | Object: Redding
+Confidence: 1.0000000   | Subject: Rapinoe      | Object: California
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: Portland
+Confidence: 1.0000000   | Subject: Megan Rapinoe        | Object: Oregon
+Confidence: 1.0000000   | Subject: Gavin Newsom         | Object: Redding
+Confidence: 1.0000000   | Subject: Megan        | Object: Redding
+Total # of iterations =  1

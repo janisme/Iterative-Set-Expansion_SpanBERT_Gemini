@@ -1,0 +1,928 @@
+python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs" 2 0.0 "sundar pichai google" 40
+Parameters:
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs
+Mode: -gemini
+Relation: per:employee_of
+Seed Query: sundar pichai google
+Number of Tuples: 40
+~~~~~
+                === Extracted Relation ===
+                Sentence:Less Sundar Pichai (born June 10, 1972, Madras [now Chennai], Tamil Nadu, India) Indian-born American executive who was CEO of both Google, Inc. (2015– ), and its holding company, Alphabet Inc. (2019– ).As
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar Pichai ;        Object: Alphabet Inc.
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:a boy growing up in Madras, Pichai slept with his brother in the living room of the cramped family home, but his father, an electrical engineer at the British multinational GEC, saw that the boys received a good education.
+
+                Subject: Pichai's father ;      Object: GEC
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:Britannica Quiz Computers and Technology Quiz Following a short stint at the management consulting firm McKinsey & Co., Pichai joined Google in 2004 as the head of product management and development.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 50 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundar PichaiSundar Pichai, 2015.(more)In 2011 Pichai reportedly was aggressively pursued for employment by microblogging service Twitter, and in 2014 he was touted as a possible CEO for Microsoft, but in both instances he was granted large financial packages to remain with Google.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Therefore, when Google cofounders Larry Page and Sergey Brin announced the creation of Alphabet Inc., in August 2015, it came as no surprise to industry insiders that Pichai was named CEO of Google, which was reorganized as a subsidiary.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In December 2019 he also was named CEO of Alphabet, replacing Page, who stepped down.
+
+                Subject: Page ; Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 50 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : In December 2019 he also was named CEO of Alphabet, replacing Page, who stepped down.
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  18  out of total  50  sentences from spaCy, 6 from Gemini.
+Relations extracted from this website: 2 (Overall: 30)
+
+
+URL (10/10) : https://www.businessroundtable.org/about-us/members/sundar-pichai-ceo-alphabet-inc
+Webpage length (num characters): 4569
+Extracted 19 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Sundar Pichai, CEO, Alphabet Inc., CEO, Alphabet Inc.
+
+                Subject: Sundar Pichai ;        Object: Alphabet Inc.
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 19 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundar Pichai CEO Alphabet Inc.
+
+                Subject: Sundar Pichai ;        Object: Alphabet Inc.
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Sundar is the CEO of Google and Alphabet and serves on Alphabet’s Board of Directors.
+
+                Subject: Sundar ;       Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar ;       Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Sundar became Google’s CEO in August 2015.
+
+                Subject: Sundar ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 19 sentences
+
+                === Extracted Relation ===
+                Sentence:In December 2019, in addition to his role as CEO of Google, Sundar became the CEO of Google’s parent company, Alphabet.
+
+                Subject: Sundar ;       Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar ;       Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 19 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : Privacy | Terms image/svg+xml Policy Perspectives Back Policy Perspectives Corporate Governance Back Corporate Governance Effective Oversight and Regulation Long-Term Value Creation Principles of Corporate Governance Promoting Responsible Shareholder Engagement Diversity, Equity & Inclusion Education & Workforce Back Education & Workforce Higher Education Federal Minimum Wage Policy Pre-K-12 Education Energy & Environment Back Energy & Environment Addressing Climate Change American Energy in the 21st Century Energy Infrastructure Health & Retirement Immigration Back Immigration Economic Impact A Modern Approach to U.S. Immigration Policy Infrastructure Back Infrastructure Delivering for America Purpose of a Corporation Back Purpose of a Corporation CEO Commentary Statement and CEO Signatories Racial Equity & Justice Smart Regulation Back Smart Regulation Modernizing Regulation Permitting Reform Smart Regulation for the Innovation Economy Overlapping Agency Jurisdiction Tax & Fiscal Policy Back Tax & Fiscal Policy Competitiveness Technology Back Technology Artificial Intelligence Cybersecurity Privacy Technology and Innovation Policy Priorities Trade & International Back Trade & International Addressing China’s Trade Practices Benefits of Trade Section 232 Tariffs Trade with Canada and Mexico Media Back The Latest CEO Economic Outlook Index About Us Back About Us Board of Directors Membership Staff Contact Corporate Initiatives Member Portal We use cookies to give you the best experience when using our website.
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  13  out of total  19  sentences from spaCy, 5 from Gemini.
+Relations extracted from this website: 1 (Overall: 31)
+
+
+================================================================================
+ALL RELATIONS for per:employee_of (31)
+================================================================================
+Confidence: 1.0000000   | Subject: Pichai       | Object: Google
+Confidence: 1.0000000   | Subject: Regunatha Pichai     | Object: GEC
+Confidence: 1.0000000   | Subject: Pichai       | Object: Applied Materials
+Confidence: 1.0000000   | Subject: Pichai       | Object: McKinsey & Company
+Confidence: 1.0000000   | Subject: Andy Rubin   | Object: Jive Software
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: United States House Judiciary Committee
+Confidence: 1.0000000   | Subject: Pichai       | Object: Facebook
+Confidence: 1.0000000   | Subject: Mark Zuckerberg      | Object: Facebook
+Confidence: 1.0000000   | Subject: Jack Dorsey  | Object: Twitter
+Confidence: 1.0000000   | Subject: Melinda C. Shepherd  | Object: Encyclopædia Britannica
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Google
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet
+Confidence: 1.0000000   | Subject: Ruth Porat   | Object: Google
+Confidence: 1.0000000   | Subject: Kent Walker  | Object: Google
+Confidence: 1.0000000   | Subject: Ben Thompson         | Object: Google
+Confidence: 1.0000000   | Subject: Mark Shmulik         | Object: Bernstein
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Perplexity
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: OpenAI
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Google
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: DeepMind
+Confidence: 1.0000000   | Subject: Sundar       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Marissa Mayer        | Object: Google
+Confidence: 1.0000000   | Subject: Othman Laraki        | Object: Color Health
+Confidence: 1.0000000   | Subject: Elon Musk    | Object: Twitter
+Confidence: 1.0000000   | Subject: Julia Boorstin       | Object: Google
+Confidence: 1.0000000   | Subject: Pichai's father      | Object: GEC
+Confidence: 1.0000000   | Subject: Page         | Object: Alphabet
+Confidence: 1.0000000   | Subject: Sundar       | Object: Google
+=========== Iteration: 1 - Query: Pichai Google =============
+URL (1/10) : Skip visited URL...
+URL (2/10) : Skip visited URL...
+URL (3/10) : Skip visited URL...
+URL (4/10) : Skip visited URL...
+URL (5/10) : Skip visited URL...
+URL (6/10) : https://www.npr.org/2024/02/28/1234532775/google-gemini-offended-users-images-race
+Webpage length (num characters): 6708
+Extracted 40 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Google CEO Pichai says Gemini's AI image results "offended our users" : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Business Health Science Climate Race Culture Expand/collapse submenu for Culture Books Movies Television Pop Culture Food Art & Design Performing Arts Life Kit Gaming Music Expand/collapse submenu for Music Tiny Desk Hip-Hop 50 All Songs Considered Music Features Live Sessions Podcasts & Shows Expand/collapse submenu for Podcasts & Shows Daily Morning Edition Weekend Edition Saturday Weekend Edition Sunday
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Press Ethics Google CEO Pichai says Gemini's AI image results "offended our users" Google CEO Sundar Pichai told employees in an internal memo that the AI tool's problematic images were unacceptable.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:Technology Google CEO Pichai says Gemini's AI image results "offended our users" February 28, 20242:14 PM ET Bobby Allyn Enlarge this image Google Chief Executive Officer Sundar Pichai sent an email to staff on Tuesday saying Gemini's release was unacceptable.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Eric Risberg/AP hide caption toggle caption Eric Risberg/AP Google Chief Executive Officer Sundar Pichai sent an email to staff on Tuesday saying Gemini's release was unacceptable.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Eric Risberg/AP Google CEO Sundar Pichai told employees in an internal memo late Tuesday that the company's release of artificial intelligence tool Gemini has been unacceptable, pledging to fix and relaunch the service in the coming weeks.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:Still reeling from the controversy, Pichai told Google staff in a note reviewed by NPR that there is no excuse for the tool's "problematic" performance.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:You probably don't just want to only receive images of people of just one type of ethnicity (or any other characteristic)," wrote Google executive Prabhakar Raghavan.
+
+                Subject: Prabhakar Raghavan ;   Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 40 sentences
+Processed 25 / 40 sentences
+Processed 30 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:In his note to employees at Google, Pichai wrote that when Gemini is re-released to the public, he hopes the service is in better shape.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 40 sentences
+Processed 40 / 40 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : pichai gemini chatgpt founding fathers ai race Google Facebook Flipboard Email Read & Listen
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  18  out of total  40  sentences from spaCy, 8 from Gemini.
+Relations extracted from this website: 1 (Overall: 32)
+
+
+URL (7/10) : Skip visited URL...
+URL (8/10) : Skip visited URL...
+URL (9/10) : Skip visited URL...
+URL (10/10) : https://www.inc.com/jason-aten/google-ceo-sundar-pichai-forgot-most-important-rule-of-leadership-it-could-cost-him-his-job.html
+Request to https://www.inc.com/jason-aten/google-ceo-sundar-pichai-forgot-most-important-rule-of-leadership-it-could-cost-him-his-job.html failed with status code 403
+================================================================================
+ALL RELATIONS for per:employee_of (32)
+================================================================================
+Confidence: 1.0000000   | Subject: Pichai       | Object: Google
+Confidence: 1.0000000   | Subject: Regunatha Pichai     | Object: GEC
+Confidence: 1.0000000   | Subject: Pichai       | Object: Applied Materials
+Confidence: 1.0000000   | Subject: Pichai       | Object: McKinsey & Company
+Confidence: 1.0000000   | Subject: Andy Rubin   | Object: Jive Software
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: United States House Judiciary Committee
+Confidence: 1.0000000   | Subject: Pichai       | Object: Facebook
+Confidence: 1.0000000   | Subject: Mark Zuckerberg      | Object: Facebook
+Confidence: 1.0000000   | Subject: Jack Dorsey  | Object: Twitter
+Confidence: 1.0000000   | Subject: Melinda C. Shepherd  | Object: Encyclopædia Britannica
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Google
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet
+Confidence: 1.0000000   | Subject: Ruth Porat   | Object: Google
+Confidence: 1.0000000   | Subject: Kent Walker  | Object: Google
+Confidence: 1.0000000   | Subject: Ben Thompson         | Object: Google
+Confidence: 1.0000000   | Subject: Mark Shmulik         | Object: Bernstein
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Perplexity
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: OpenAI
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Google
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: DeepMind
+Confidence: 1.0000000   | Subject: Sundar       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Marissa Mayer        | Object: Google
+Confidence: 1.0000000   | Subject: Othman Laraki        | Object: Color Health
+Confidence: 1.0000000   | Subject: Elon Musk    | Object: Twitter
+Confidence: 1.0000000   | Subject: Julia Boorstin       | Object: Google
+Confidence: 1.0000000   | Subject: Pichai's father      | Object: GEC
+Confidence: 1.0000000   | Subject: Page         | Object: Alphabet
+Confidence: 1.0000000   | Subject: Sundar       | Object: Google
+Confidence: 1.0000000   | Subject: Prabhakar Raghavan   | Object: Google
+=========== Iteration: 2 - Query: Regunatha Pichai GEC =============
+URL (1/10) : Skip visited URL...
+URL (2/10) : https://forum.freecodecamp.org/t/can-anyone-please-help-i-am-stuck-on-the-tribute-page-with-a-few-requirements/527189
+Webpage length (num characters): 6809
+Extracted 51 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 51 sentences
+Processed 10 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:<div id="img-div"> <img id="image" src="https://www.gettyimages.indetailnews-photochief-executive-officer-of-google-inc-sundar-pichai-is-news-photo" ><div id="img-caption">Photo of Alphabet and Google CEO Sundar Pichai</div></div> <body id="tribute-info"> <h2 id="h2">Background</h2> <p id="p1">
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:His mother Lakshmi was a stenographer and his father, Regunatha Pichai was an electrical engineer at GEC, the British conglomerate.
+
+                Subject: Regunatha Pichai ;     Object: GEC
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:<p id="p3">Pichai worked in engineering and product management at Applied Materials and in management consulting at McKinsey & Company.
+
+                Subject: Pichai ;       Object: Applied Materials
+                Adding to set of extracted relations...
+
+                Subject: Pichai ;       Object: McKinsey & Company
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Pichai got a job at Google in 2004, where he managed the product management and innovation efforts for a suite of Google’s client software products, including Google Chrome and Chrome OS.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:On May 20, 2010, he declared the open-sourcing of the new video codec VP8 by Google and launched the new video format, WebM. On March 13, 2013, Pichai annexed Android to the list of Google products that he manages.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai was chosen to become the next CEO of Google on August 10, 2015 after previously being appointed Product Chief by CEO, Larry Page.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In August 2017, Pichai got a lot of publicity firing a Google employee who wrote a ten-page manifesto criticizing the company’s diversity policies and explaining that “distribution of preferences and abilities of men and women differ in part due to biological causes and … these differences may explain why we don’t see equal representation of women in tech and leadership”.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:While noting that the manifesto raised a number of issues that are open to debate, Pichai said in a memo to Google employees that “to suggest a group of our colleagues have traits that make them less biologically suited to that work is offensive and not OK”.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 51 sentences
+
+                === Extracted Relation ===
+                Sentence:In December 2017, Pichai was a speaker at the World Internet Conference in China, where he declared that “a lot of work Google does is to help Chinese companies.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 51 sentences
+Processed 45 / 51 sentences
+Processed 50 / 51 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : Your browser information: User Agent is: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  21  out of total  51  sentences from spaCy, 9 from Gemini.
+Relations extracted from this website: 0 (Overall: 32)
+
+
+URL (3/10) : https://www.linkedin.com/pulse/sundar-pichais-biography-struggle-led-success-mrinmoy-paul-
+Webpage length (num characters): 10049
+Trimming webpage content from 10049 to 10000 characters
+Extracted 94 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 94 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai Sundararajan, Sundar Pichai is the CEO (President) of Letters in Order Inc.
+
+                Subject: Pichai Sundararajan ;  Object: Letters in Order Inc.
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 94 sentences
+
+                === Extracted Relation ===
+                Sentence:In 2004, Separate Pichai joined Google as the leader of the item the board chief.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:He rose to turn into Google's Item Boss and assumed responsibility for Google's parent organization, Letter Set Inc. Sundar became Google's Chief in 2015 and he also became President of Letters in Order Inc. in December 2019.
+
+                Subject: Sundar ;       Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar ;       Object: Letters in Order Inc.
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:His dad, Regunatha Pichai was an electrical designer at General Electric Organization, GEC, a UK-based modern aggregate.
+
+                Subject: Regunatha Pichai ;     Object: General Electric Organization
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 94 sentences
+Processed 20 / 94 sentences
+Processed 25 / 94 sentences
+Processed 30 / 94 sentences
+Processed 35 / 94 sentences
+Processed 40 / 94 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai presented the new video design, WebM by Google and reported the public release of the new video codec VP8.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 94 sentences
+
+                === Extracted Relation ===
+                Sentence:On August 10, 2015, Sundar Pichai became the following President of Google after recently delegated Item Boss.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 94 sentences
+Processed 55 / 94 sentences
+Processed 60 / 94 sentences
+Processed 65 / 94 sentences
+Processed 70 / 94 sentences
+Processed 75 / 94 sentences
+Processed 80 / 94 sentences
+
+                === Extracted Relation ===
+                Sentence:Show more Show less Others also viewed Sundar Pichai Birthday 12 July - Eleven interesting facts about Google CEO Sundar Pichai Akash Chauhan - Digital Marketing Strategist 6y Today we are going to know Google CEO Shariful Islam 5y 17 facts worth knowing about new Google CEO Sundar Pichai Bayas
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Shariful Islam ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 85 / 94 sentences
+Processed 90 / 94 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish)
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  35  out of total  94  sentences from spaCy, 7 from Gemini.
+Relations extracted from this website: 4 (Overall: 36)
+
+
+URL (4/10) : https://www.instagram.com/p/CKwUdO4AKxe/?hl=en
+Webpage length (num characters): 9
+Extracted 1 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+Extracted annotations for  0  out of total  1  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 36)
+
+
+URL (5/10) : https://www.lcrcapital.com/blog/immigrant-profile-sundar-pichai/
+Webpage length (num characters): 6318
+Extracted 40 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 40 sentences
+Processed 10 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:Immigrant Profile: Sundar Pichai Background Sundar Pichai is the CEO of the internet giant Alphabet and its main subsidiary, Google.
+
+                Subject: Sundar Pichai ;        Object: Alphabet
+                Adding to set of extracted relations...
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:His father, Regunatha Pichai, was an electrical engineer who managed a British-owned company, GEC, that made electrical components.
+
+                Subject: Regunatha Pichai ;     Object: GEC
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:Professional Background & Achievements After completing his studies, Pichai went to work for McKinsey & Company in engineering and management for applied materials before moving in 2004 to Google, where he worked in product management, overseeing the development of many Google innovative products, including Google Chrome, Chrome OS, and Google Drive.
+
+                Subject: Pichai ;       Object: McKinsey & Company
+                Adding to set of extracted relations...
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 40 sentences
+
+                === Extracted Relation ===
+                Sentence:In 2015, Google selected Pichai as its new CEO, and he stepped into the role just as the formation of Google’s new holding company, Alphabet, was being completed.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Contributions to the U.S. Economy After over 15 years at Google, Pichai is the CEO of Alphabet, of which Google is a subsidiary.
+
+                Subject: Pichai ;       Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 40 sentences
+Processed 30 / 40 sentences
+Processed 35 / 40 sentences
+Processed 40 / 40 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : LCR Team LCR in the Media Testimonials Careers News Upcoming Events ConnectOffice Locations LCR EB-5
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  15  out of total  40  sentences from spaCy, 5 from Gemini.
+Relations extracted from this website: 0 (Overall: 36)
+
+
+URL (6/10) : https://timesofindia.indiatimes.com/tech-news/googles-sundar-pichai-travelled-in-buses-had-no-television-while-growing-up/articleshow/48437943.cms
+Webpage length (num characters): 10641
+Trimming webpage content from 10641 to 10000 characters
+Extracted 68 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+                === Extracted Relation ===
+                Sentence:Google's Sundar Pichai travelled in buses, had no television while growing up - Times of IndiaEditionININUSSign InTOITechGadgets NewsAINew BingTech NewsGadgetsReviewsTop GadgetsSlideshowsVideosHow toFeaturedWeb StoriesToday's ePaperNewsTech NewsGoogle's Sundar Pichai travelled in buses, had no television while growing upThis story is from August 11, 2015Google's Sundar Pichai travelled in buses, had no television while growing
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 5 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence:Last year when he was appointed the product head for key Google products like Android, Search, Maps, etc, Bloomberg called Sundar Pichai "the most powerful man in mobile."
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence:Today, the title has become official as Larry Page has handed over the title of Google CEO to the Chennai-born engineer with an eye for product development.
+
+                Subject: Larry Page ;   Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 68 sentences
+Processed 20 / 68 sentences
+Processed 25 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence:Alan Eustace, vice president for engineering, says that during a recent meeting, Pichai produced a statistic related to the increase of voice-activated searches.
+
+                Subject: Alan Eustace ; Object: NULL
+                Adding to set of extracted relations...
+
+                Subject: Pichai ;       Object: NULL
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 68 sentences
+Processed 35 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai planned to get a PhD at Stanford and pursue an academic career, but he briefly panicked his parents by dropping out to work as an engineer and product manager at Applied Materials, a Silicon Valley semiconductor maker.
+
+                Subject: Pichai ;       Object: Applied Materials
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:After getting an MBA from the Wharton School of Business in 2002 and spending a stint as a consultant at McKinsey, Pichai arrived at the Googleplex on April 1, 2004.
+
+                Subject: Pichai ;       Object: McKinsey
+                Adding to set of extracted relations...
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 68 sentences
+Processed 45 / 68 sentences
+Processed 50 / 68 sentences
+Processed 55 / 68 sentences
+Processed 60 / 68 sentences
+Processed 65 / 68 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : What every woman should knowSiddharth Nigam's mom Vibha shares with Juhi Parmar: I decided to resign from my job in Allahabad and move to Mumbai for Siddharth and give him a chance to work in Dhoom 3Nijjar row:
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  30  out of total  68  sentences from spaCy, 6 from Gemini.
+Relations extracted from this website: 4 (Overall: 40)
+
+
+URL (7/10) : https://www.quora.com/What-happened-to-the-guy-who-became-the-CEO-of-Google-and-now-lives-in-India-with-his-family-but-works-remotely-for-Google
+Webpage length (num characters): 250
+Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+Extracted annotations for  0  out of total  4  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 40)
+
+
+URL (8/10) : https://www.helloleads.io/blog/stats-facts/25-amazing-stats-and-facts-about-sundar-pichai/
+Webpage length (num characters): 4996
+Extracted 65 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 65 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai Sundararajan is an Indian-born American business executive who has been the chief executive officer of Alphabet Inc, and its subsidiary Google.
+
+                Subject: Pichai Sundararajan ;  Object: Alphabet Inc
+                Adding to set of extracted relations...
+
+                Subject: Pichai Sundararajan ;  Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 65 sentences
+Processed 15 / 65 sentences
+Processed 20 / 65 sentences
+Processed 25 / 65 sentences
+Processed 30 / 65 sentences
+
+                === Extracted Relation ===
+                Sentence:Father’s name : Regunatha Pichai was an electrical engineer at GEC 22.
+
+                Subject: Regunatha Pichai ;     Object: GEC
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Wife : Anjali Pichai, was a chemical engineer and works as a business operation manager at Intuit 24.
+
+                Subject: Anjali Pichai ;        Object: Intuit
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 65 sentences
+Processed 40 / 65 sentences
+
+                === Extracted Relation ===
+                Sentence:This comment form is under antispam protection This comment form is under antispam protection Related Posts Stats & Facts Ethan Brown: Stats and Facts on the CEO of Beyond Meat From bleeding burgers to UN awards, Ethan Brown's plant-based empire is shaking things up.
+
+                Subject: Ethan Brown ;  Object: Beyond Meat
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 65 sentences
+
+                === Extracted Relation ===
+                Sentence:Stats & Facts From BT Boss to Salesforce Leader: The Gavin Patterson Story Boardroom Maverick to Tech Titan: Gavin Patterson.
+
+                Subject: Gavin Patterson ;      Object: BT
+                Adding to set of extracted relations...
+
+                Subject: Gavin Patterson ;      Object: Salesforce
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 65 sentences
+Processed 55 / 65 sentences
+Processed 60 / 65 sentences
+Processed 65 / 65 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : He shook up BT, led Salesforce sales, and continues to influence tech.
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  15  out of total  65  sentences from spaCy, 6 from Gemini.
+Relations extracted from this website: 6 (Overall: 46)
+
+
+URL (9/10) : https://www.quora.com/What-is-Sundar-Pichais-caste
+Webpage length (num characters): 156
+Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+
+Extracted annotations for  0  out of total  4  sentences from spaCy, 0 from Gemini.
+Relations extracted from this website: 0 (Overall: 46)
+
+
+URL (10/10) : https://www.jagranjosh.com/general-knowledge/sundar-pichai-biography-education-and-salary-1575456594-1
+Webpage length (num characters): 9160
+Extracted 74 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, run gemini ...
+Processed 5 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:GK Sundar Pichai: Biography, Education and Salary Sundar Pichai is the current Chief Executive Officer (CEO) of the search engine Google and Alphabet Inc.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar Pichai ;        Object: Alphabet Inc.
+                Adding to set of extracted relations...
+                ==========
+Processed 10 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:By Hemant SinghDec 20, 2022, 17:16 IST Sundar Pichai: CEO GoogleSundar Pichai is the driving force behind Google’s ideological journey.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:In 2015, Sundar Pichai became the CEO of Google.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 15 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Nationality: American, India born American Height: 1.80 m Pichai was born to Regunatha Pichai, who worked as an electrical engineer for the British corporation GEC, and, Lakshmi, who was a stenographer.
+
+                Subject: Regunatha Pichai ;     Object: GEC
+                Adding to set of extracted relations...
+                ==========
+Processed 20 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:His father, Regunatha Pichai, worked as an electrical engineer for the British corporation GEC, and his mother, Lakshmi, was a stenographer.
+
+                Subject: Regunatha Pichai ;     Object: GEC
+                Adding to set of extracted relations...
+                ==========
+Processed 25 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundar completed MBA from Wharton in 2002 and joined McKinsey & Company as a consultant.
+
+                Subject: Sundar ;       Object: McKinsey & Company
+                Adding to set of extracted relations...
+                ==========
+Processed 30 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundar Pichai convinced the co-founders of Google, Sergey Brin, and Larry Page to launch Google’s browser.
+
+                Subject: Sergey Brin ;  Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Larry Page ;   Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Sundar played an important role in the final launching of Google Chrome, in 2008.God help those who help themselves, and the launch of Google Chrome brings phenomenal success to the Sundar Pichai.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 35 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Sundar Pichai was awarded 273,328 shares of Google's holding company Alphabet in Feb.2016.
+
+                Subject: Sundar Pichai ;        Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+Processed 40 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Pichai makes $242 million a year as CEO of Alphabet and holds a sizeable share of the company as well.
+
+                Subject: Pichai ;       Object: Alphabet
+                Adding to set of extracted relations...
+                ==========
+Processed 45 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:Top 10 Google’s Most Searched Sports Events In India 2022 Pichai, in a meeting with Indian Prime Minister Narendra Modi, expressed his support for India's G20 presidency.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 50 / 74 sentences
+
+                === Extracted Relation ===
+                Sentence:pic.twitter.com/eEOHvGwbqO — Sundar Pichai (@sundarpichai) December 19, 2022 It is suffice to say that Sundar Pichai is a great visionary and under his leadership, Google will only thrive further.
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:FAQsWhy is Sundar Pichai so famous?+Sundar Pichai is the CEO of Google and Alphabet Inc (parent company of Google).
+
+                Subject: Sundar Pichai ;        Object: Google
+                Adding to set of extracted relations...
+
+                Subject: Sundar Pichai ;        Object: Alphabet Inc
+                Adding to set of extracted relations...
+                ==========
+
+                === Extracted Relation ===
+                Sentence:Pichai, who joined Google in 2004 was directly involved in the development and launch of the search engine's most successful products, including Google Chrome.
+
+                Subject: Pichai ;       Object: Google
+                Adding to set of extracted relations...
+                ==========
+Processed 55 / 74 sentences
+Processed 60 / 74 sentences
+Processed 65 / 74 sentences
+Processed 70 / 74 sentences
+
+Last prompt=
+    Task: Identify entities labeled as 'Person' and 'Organization' and analyze the relations between those entities to extract all explicit Work_For relations in the sentence.
+    Sentence : A Salary 2024 Revised Pay Scale, Job Profile, Perks and Allowances 28 mins ago Current Affairs Hindi One Liners: 26 मार्च 2024- सिनेवेस्टर
+    Definition: A Work_For relation indicates that a 'Person' is employed by or works for a 'Organization'.
+    Return format: represent relation in the format of ['Person',Work_For,'Organization'], and use ";" to seperate each relationship.
+    * If there is no relationship exists return NULL.
+    * Object must be proper nouns, not pronouns not NULL.
+    * Subject must be proper nouns, not pronouns not NULL.
+    * example: Alec Radford, Work_For, OpenAI; Pichai, Work_For, Google; Regunatha Pichai, Work_For, GEC
+    
+
+Extracted annotations for  32  out of total  74  sentences from spaCy, 14 from Gemini.
+Relations extracted from this website: 3 (Overall: 49)
+
+
+================================================================================
+ALL RELATIONS for per:employee_of (49)
+================================================================================
+Confidence: 1.0000000   | Subject: Pichai       | Object: Google
+Confidence: 1.0000000   | Subject: Regunatha Pichai     | Object: GEC
+Confidence: 1.0000000   | Subject: Pichai       | Object: Applied Materials
+Confidence: 1.0000000   | Subject: Pichai       | Object: McKinsey & Company
+Confidence: 1.0000000   | Subject: Andy Rubin   | Object: Jive Software
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: United States House Judiciary Committee
+Confidence: 1.0000000   | Subject: Pichai       | Object: Facebook
+Confidence: 1.0000000   | Subject: Mark Zuckerberg      | Object: Facebook
+Confidence: 1.0000000   | Subject: Jack Dorsey  | Object: Twitter
+Confidence: 1.0000000   | Subject: Melinda C. Shepherd  | Object: Encyclopædia Britannica
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Google
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet Inc.
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet
+Confidence: 1.0000000   | Subject: Ruth Porat   | Object: Google
+Confidence: 1.0000000   | Subject: Kent Walker  | Object: Google
+Confidence: 1.0000000   | Subject: Ben Thompson         | Object: Google
+Confidence: 1.0000000   | Subject: Mark Shmulik         | Object: Bernstein
+Confidence: 1.0000000   | Subject: Pichai       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Perplexity
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: OpenAI
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: Google
+Confidence: 1.0000000   | Subject: Aravind Srinivas     | Object: DeepMind
+Confidence: 1.0000000   | Subject: Sundar       | Object: Alphabet
+Confidence: 1.0000000   | Subject: Marissa Mayer        | Object: Google
+Confidence: 1.0000000   | Subject: Othman Laraki        | Object: Color Health
+Confidence: 1.0000000   | Subject: Elon Musk    | Object: Twitter
+Confidence: 1.0000000   | Subject: Julia Boorstin       | Object: Google
+Confidence: 1.0000000   | Subject: Pichai's father      | Object: GEC
+Confidence: 1.0000000   | Subject: Page         | Object: Alphabet
+Confidence: 1.0000000   | Subject: Sundar       | Object: Google
+Confidence: 1.0000000   | Subject: Prabhakar Raghavan   | Object: Google
+Confidence: 1.0000000   | Subject: Pichai Sundararajan  | Object: Letters in Order Inc.
+Confidence: 1.0000000   | Subject: Sundar       | Object: Letters in Order Inc.
+Confidence: 1.0000000   | Subject: Regunatha Pichai     | Object: General Electric Organization
+Confidence: 1.0000000   | Subject: Shariful Islam       | Object: Google
+Confidence: 1.0000000   | Subject: Larry Page   | Object: Google
+Confidence: 1.0000000   | Subject: Alan Eustace         | Object: NULL
+Confidence: 1.0000000   | Subject: Pichai       | Object: NULL
+Confidence: 1.0000000   | Subject: Pichai       | Object: McKinsey
+Confidence: 1.0000000   | Subject: Pichai Sundararajan  | Object: Alphabet Inc
+Confidence: 1.0000000   | Subject: Pichai Sundararajan  | Object: Google
+Confidence: 1.0000000   | Subject: Anjali Pichai        | Object: Intuit
+Confidence: 1.0000000   | Subject: Ethan Brown  | Object: Beyond Meat
+Confidence: 1.0000000   | Subject: Gavin Patterson      | Object: BT
+Confidence: 1.0000000   | Subject: Gavin Patterson      | Object: Salesforce
+Confidence: 1.0000000   | Subject: Sundar       | Object: McKinsey & Company
+Confidence: 1.0000000   | Subject: Sergey Brin  | Object: Google
+Confidence: 1.0000000   | Subject: Sundar Pichai        | Object: Alphabet Inc
+Total # of iterations =  3

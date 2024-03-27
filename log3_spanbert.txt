@@ -1,0 +1,219 @@
+Mode: -spanbert
+Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google Engine ID: 56f4e4ae2f4944372
+Google Gemini API Key: 123
+Relation: per:cities_of_residence
+Threshold: 0.7
+Seed Query: megan rapinoe redding
+Number of Tuples: 2
+Loading pre-trained spanBERT from ./SpanBERT/pretrained_spanbert
+=========== Iteration: 0 - Query: megan rapinoe redding =============
+URL (1/10) :
+https://www.redding.com/story/news/local/2019/07/08/after-world-cup-win-and-local-controversy-megan-rapinoe-still-praises-hometown-love/1679235001/
+Webpage length (num characters): 4780
+Extracted 31 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+	Sentence: Megan Rapinoe praises 'hometown love' for Redding after World Cup winNews Sports Opinion Business Entertainment Advertise Obituaries eNewspaper Legals LOCALAfter World Cup win — and local controversy — Megan Rapinoe still praises 'hometown love' Alayna ShulmanReddingShasta County residents might be divided over homegrown soccer superstar Megan Rapinoe's outspoken political beliefs, but the 34-year-old still considers local support "the best kind of love" after leading her country to World Cup victory over the Netherlands Sunday.
+		Relation: per:cities_of_residence (Confidence: 0.976)
+Subject: Megan Rapinoe	Object: ShulmanReddingShasta County
+		Adding to set of extracted relations
+		==========
+Processed 5 / 31 sentences
+Processed 10 / 31 sentences
+Processed 15 / 31 sentences
+Processed 20 / 31 sentences
+Processed 25 / 31 sentences
+Processed 30 / 31 sentences
+Extracted annotations for  0  out of total  31  sentences
+Relations extracted from this website: 1 (Overall: 1)
+URL (2/10) :
+https://www.mercurynews.com/2019/07/06/womens-world-cup-hometown-star-out-of-step-in-californias-trump-country/
+Webpage length (num characters): 19992
+Trimming webpage content from 19992 to 10000 characters
+Extracted 59 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 59 sentences
+Processed 10 / 59 sentences
+Processed 15 / 59 sentences
+Processed 20 / 59 sentences
+Processed 25 / 59 sentences
+Processed 30 / 59 sentences
+
+		=== Extracted Relation ===
+	Sentence: Rapinoe grew up in Redding.
+		Relation: per:cities_of_residence (Confidence: 0.991)
+Subject: Rapinoe	Object: Redding
+		Adding to set of extracted relations
+		==========
+Processed 35 / 59 sentences
+
+		=== Extracted Relation ===
+	Sentence: Rapinoe grew up in Redding.
+		Relation: per:cities_of_residence (Confidence: 0.991)
+Subject: Rapinoe	Object: Redding
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 40 / 59 sentences
+Processed 45 / 59 sentences
+
+		=== Extracted Relation ===
+	Sentence: Rapinoe grew up in Redding.
+		Relation: per:cities_of_residence (Confidence: 0.991)
+Subject: Rapinoe	Object: Redding
+		Duplicate with lower confidence than existing record. Ignoring this.
+		==========
+Processed 50 / 59 sentences
+Processed 55 / 59 sentences
+Extracted annotations for  0  out of total  59  sentences
+Relations extracted from this website: 1 (Overall: 3)
+URL (3/10) :
+https://www.sfgate.com/sports/article/how-megan-rapinoe-remembered-hometown-redding-18190858.php
+Request to https://www.sfgate.com/sports/article/how-megan-rapinoe-remembered-hometown-redding-18190858.php failed with status code 403
+URL (4/10) :
+https://www.thedailybeast.com/the-mystical-megachurch-ruling-over-world-cup-soccer-star-megan-rapinoes-hometown
+Webpage length (num characters): 16431
+Trimming webpage content from 16431 to 10000 characters
+Extracted 60 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 60 sentences
+
+		=== Extracted Relation ===
+	Sentence: Rapinoe grew up in the small logging town of Redding, California, and has maintained a close relationship with the community.
+		Relation: per:cities_of_residence (Confidence: 0.523)
+Subject: Rapinoe	Object: Redding
+		Confidence is lower than threshold confidence. Ignoring this.
+		==========
+Processed 10 / 60 sentences
+Processed 15 / 60 sentences
+Processed 20 / 60 sentences
+Processed 25 / 60 sentences
+Processed 30 / 60 sentences
+Processed 35 / 60 sentences
+Processed 40 / 60 sentences
+Processed 45 / 60 sentences
+Processed 50 / 60 sentences
+
+		=== Extracted Relation ===
+	Sentence: Will Smith, a former Bethel member who lives in the Bay Area, said congregants often approach his friend’s son, who lives with cerebral palsy, offering to cure his illness—a gesture the child and his parents find distressing.
+		Relation: per:cities_of_residence (Confidence: 0.979)
+Subject: Will Smith	Object: the Bay Area
+		Adding to set of extracted relations
+		==========
+Processed 55 / 60 sentences
+Processed 60 / 60 sentences
+Extracted annotations for  0  out of total  60  sentences
+Relations extracted from this website: 1 (Overall: 2)
+URL (5/10) :
+https://en.wikipedia.org/wiki/Megan_Rapinoe
+Webpage length (num characters): 127618
+Trimming webpage content from 127618 to 10000 characters
+Extracted 58 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 58 sentences
+Processed 10 / 58 sentences
+Processed 15 / 58 sentences
+Processed 20 / 58 sentences
+
+		=== Extracted Relation ===
+	Sentence: Early life Rapinoe grew up in Redding, California, with her parents, Jim and Denise, and five siblings, including her fraternal twin Rachael Rapinoe.
+		Relation: per:cities_of_residence (Confidence: 0.974)
+Subject: Jim	Object: Redding
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Early life Rapinoe grew up in Redding, California, with her parents, Jim and Denise, and five siblings, including her fraternal twin Rachael Rapinoe.
+		Relation: per:cities_of_residence (Confidence: 0.974)
+Subject: Denise	Object: Redding
+		Adding to set of extracted relations
+		==========
+
+		=== Extracted Relation ===
+	Sentence: Early life Rapinoe grew up in Redding, California, with her parents, Jim and Denise, and five siblings, including her fraternal twin Rachael Rapinoe.
+		Relation: per:cities_of_residence (Confidence: 0.974)
+Subject: Rachael Rapinoe	Object: Redding
+		Adding to set of extracted relations
+		==========
+Processed 25 / 58 sentences
+Processed 30 / 58 sentences
+Processed 35 / 58 sentences
+Processed 40 / 58 sentences
+Processed 45 / 58 sentences
+Processed 50 / 58 sentences
+Processed 55 / 58 sentences
+Extracted annotations for  0  out of total  58  sentences
+Relations extracted from this website: 3 (Overall: 3)
+URL (6/10) :
+https://www.espn.com/espnw/sports/article/24486574/us-soccer-star-megan-rapinoe-launches-fire-relief-fund-redding-hometown
+Webpage length (num characters): 10095
+Trimming webpage content from 10095 to 10000 characters
+Extracted 93 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 93 sentences
+Processed 10 / 93 sentences
+Processed 15 / 93 sentences
+Processed 20 / 93 sentences
+Processed 25 / 93 sentences
+Processed 30 / 93 sentences
+Processed 35 / 93 sentences
+Processed 40 / 93 sentences
+Processed 45 / 93 sentences
+Processed 50 / 93 sentences
+Processed 55 / 93 sentences
+Processed 60 / 93 sentences
+Processed 65 / 93 sentences
+Processed 70 / 93 sentences
+Processed 75 / 93 sentences
+Processed 80 / 93 sentences
+Processed 85 / 93 sentences
+Processed 90 / 93 sentences
+Extracted annotations for  0  out of total  93  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (7/10) :
+https://www.pinterest.com/pin/megan-rapinoe-in-front-of-her-childhood-home-in-redding-calif-twitter--182255116145865324/
+Webpage length (num characters): 401
+Extracted 6 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+		=== Extracted Relation ===
+	Sentence: PinterestTodayWatchShopExploreLog inSign upExploreMegan Rapinoe in front of her childhood home in Redding, Calif.
+		Relation: per:cities_of_residence (Confidence: 0.983)
+Subject: upExploreMegan Rapinoe	Object: Redding
+		Adding to set of extracted relations
+		==========
+Processed 5 / 6 sentences
+Extracted annotations for  0  out of total  6  sentences
+Relations extracted from this website: 1 (Overall: 1)
+URL (8/10) :
+https://twitter.com/mPinoe/status/515574901265412096
+Webpage length (num characters): 404
+Extracted 7 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 7 sentences
+Extracted annotations for  0  out of total  7  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (9/10) :
+https://krcrtv.com/news/local/reddings-megan-rapinoe-inducted-into-californias-hall-of-fame
+Webpage length (num characters): 2962
+Extracted 19 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 19 sentences
+Processed 10 / 19 sentences
+Processed 15 / 19 sentences
+Extracted annotations for  0  out of total  19  sentences
+Relations extracted from this website: 0 (Overall: 0)
+URL (10/10) :
+https://www.cbsnews.com/sacramento/news/soccer-legend-redding-native-megan-rapinoe-named-sports-illustrateds-sportsperson-of-the-year/
+Webpage length (num characters): 4662
+Extracted 23 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Processed 5 / 23 sentences
+Processed 10 / 23 sentences
+Processed 15 / 23 sentences
+Processed 20 / 23 sentences
+Extracted annotations for  0  out of total  23  sentences
+Relations extracted from this website: 0 (Overall: 0)
+================================================================================
+ALL RELATIONS for per:cities_of_residence (7)
+================================================================================
+Confidence: 0.9906389 	| Subject: Rapinoe 	| Object: Redding
+Confidence: 0.9827498 	| Subject: upExploreMegan Rapinoe 	| Object: Redding
+Confidence: 0.9786308 	| Subject: Will Smith 	| Object: the Bay Area
+Confidence: 0.9755000 	| Subject: Megan Rapinoe 	| Object: ShulmanReddingShasta County
+Confidence: 0.9744716 	| Subject: Rachael Rapinoe 	| Object: Redding
+Confidence: 0.9742997 	| Subject: Denise 	| Object: Redding
+Confidence: 0.9738194 	| Subject: Jim 	| Object: Redding
+Total # of iterations =  1
