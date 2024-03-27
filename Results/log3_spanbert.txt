@@ -1,7 +1,7 @@
 Mode: -spanbert
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
-Google Gemini API Key: 123
+Google Gemini API Key: xxx
 Relation: per:cities_of_residence
 Threshold: 0.7
 Seed Query: megan rapinoe redding
