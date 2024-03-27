@@ -19,7 +19,7 @@ Reference: <https://www.cs.columbia.edu/~gravano/cs6111/Proj2/>
 
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
 2. List of files:
-    * `project2.py`: This Python script is designed for running an information extraction process using either SpanBERT or Google Gemini for relation extraction from web content, based on a given seed query. It responsible for collecting search results, using spaCy library to extract named entities, and implementing SpenBert.
+    * `main.py`: This Python script is designed for running an information extraction process using either SpanBERT or Google Gemini for relation extraction from web content, based on a given seed query. It responsible for collecting search results, using spaCy library to extract named entities, and implementing SpenBert.
     * `gemini.py`: This Python script integrates Google's Generative AI (Gemini API) for relation extraction tasks. It defines functions to generate prompts for Gemini, fetch responses from the API, and extract relation tuples.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
