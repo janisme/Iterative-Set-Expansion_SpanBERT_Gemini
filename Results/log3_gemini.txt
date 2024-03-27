@@ -1,9 +1,9 @@
-python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs" 3 0.0 "megan rapinoe redding" 10
+python3 main.py -gemini "xxx" "56f4e4ae2f4944372" "xxx" 3 0.0 "megan rapinoe redding" 10
 -------
 Parameters:
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
-Google Gemini API Key: AIzaSyArX0np_auOKj09EGr0OKz8hos0BoM06cs
+Google Gemini API Key: xxx
 Mode: -gemini
 Relation: per:cities_of_residence
 Seed Query: megan rapinoe redding
