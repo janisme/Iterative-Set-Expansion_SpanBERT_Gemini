@@ -1,9 +1,9 @@
-python3 project2.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "AIzaSyAg_Arq31eMN18BQI_VcxB_AMinn5ATnBY" 4 0.0 "bill gates microsoft" 12
+python3 project2.py -gemini "xxx" "56f4e4ae2f4944372" "xxx" 4 0.0 "bill gates microsoft" 12
 -------
 Parameters:
-Google API Key: AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8
+Google API Key: xxx
 Google Engine ID: 56f4e4ae2f4944372
-Google Gemini API Key: AIzaSyAg_Arq31eMN18BQI_VcxB_AMinn5ATnBY
+Google Gemini API Key: xxx
 Mode: -gemini
 Relation: org:top_members/employees
 Seed Query: bill gates microsoft
