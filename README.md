@@ -41,13 +41,13 @@ Reference: <https://www.cs.columbia.edu/~gravano/cs6111/Proj2/>
    SpenBERT
 
    ```
-   python3 project2.py -spanbert "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "Gemini-API-key" 2 0.7 "bill gates microsoft" 10
+   python3 project2.py -spanbert "JSON_API_KEY" "56f4e4ae2f4944372" "Gemini-API-key" 2 0.7 "bill gates microsoft" 10
    ```
 
    Gemini
 
    ```
-   python3 project2.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "Gemini-API-key" 2 0.0 "bill gates microsoft" 10
+   python3 project2.py -gemini "JSON_API_KEY" "56f4e4ae2f4944372" "Gemini-API-key" 2 0.0 "bill gates microsoft" 10
    ```
 
    * $model_name: indicating the extraction model used. Options: "-spanbert" for SpanBERT or "-gemini" for Google Gemini.
@@ -124,7 +124,7 @@ Reference: <https://www.cs.columbia.edu/~gravano/cs6111/Proj2/>
    * Google Custom Search Engine JSON API Key
 
    ```
-   AIzaSyDB1xiTbkdr2O8KhnWdHrCJ8jBAfdnxii4
+   xxxxxxx
    ```
 
    * Engine ID
