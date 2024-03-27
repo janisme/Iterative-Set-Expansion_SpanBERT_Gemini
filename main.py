@@ -18,7 +18,7 @@ nlp = spacy.load("en_core_web_lg")
 
 spanbert = None
 CX = "56f4e4ae2f4944372"  # engine ID
-KEY = "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8"  # Key
+KEY = "xxxxx"  # Key_ code injection
 
 relation_map = {
     0: "per:schools_attended",
